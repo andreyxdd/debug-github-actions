@@ -1,6 +1,6 @@
 name: Reusable workflow for submodule
 
-on: [workflow_call]
+on: [workflow_dispatch]
 
 defaults:
   run:
