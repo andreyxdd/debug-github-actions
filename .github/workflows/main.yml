@@ -24,4 +24,5 @@ jobs:
           MINIMUM: ${{ secrets.MINIMUM }}
           MAXIMUM: ${{ secrets.MAXIMUM }}
 
-      - uses: andreyxdd/nodejs-github-actions/.github/workflows/submodule.yml
+      - uses: ./.github/actions
+        working-directory: subfolder
