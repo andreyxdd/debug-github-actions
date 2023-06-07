@@ -1,12 +1,14 @@
 import fetch from 'node-fetch';
-import { randomIntInARange } from './randomIntGenerator.js'
 
-const request = `https://jsonplaceholder.typicode.com/comments/${randomIntInARange}`
+// eslint-disable-next-line import/extensions
+import { randomIntInARange } from './randomIntGenerator.js';
 
-console.log("Request string:", request)
+const request = `https://jsonplaceholder.typicode.com/comments/${randomIntInARange}`;
 
-console.log("Response:")
+console.log('Request string:', request);
+
+console.log('Response:');
 fetch(request)
-      .then(response => response.json())
-      .then(json => console.log(json))
-      .catch(e => console.log(e))
+  .then((response) => response.json())
+  .then((json) => console.log(json))
+  .catch((e) => console.log(e));
