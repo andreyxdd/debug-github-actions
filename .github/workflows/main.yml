@@ -21,5 +21,5 @@ jobs:
       - name: Running index.js
         run: node index.js
         env:
-          MINIMUM: ${{ secrets.MINIMUM }}
-          MAXIMUM: ${{ secrets.MAXIMUM }}
+          MINIMUM: ${{ secrets.main.MINIMUM }}
+          MAXIMUM: ${{ secrets.main.MAXIMUM }}
