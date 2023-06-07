@@ -1,7 +1,7 @@
 import fetch from 'node-fetch';
 
 // eslint-disable-next-line import/extensions
-import { randomIntInARange } from './randomIntGenerator.js';
+import { randomIntInARange } from '../randomIntGenerator.js';
 
 const request = `https://jsonplaceholder.typicode.com/comments/${randomIntInARange}`;
 

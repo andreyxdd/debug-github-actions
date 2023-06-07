@@ -1,8 +1,6 @@
 name: Reusable workflow for submodule
 
-on:
-  workflow_dispatch:
-  workflow_call:
+on: [workflow_dispatch, workflow_call, push]
 
 defaults:
   run:
@@ -26,6 +24,7 @@ jobs:
 
       - name: Running index.js in SUBFOLDER
         run: node index.js
+        working-directory: ./sub
         env:
           MAXIMUM_SUBFOLDER: ${{ secrets.MINIMUM }}
           MINIMUM_SUBFOLDER: ${{ secrets.MAXIMUM }}
