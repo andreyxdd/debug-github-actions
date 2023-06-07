@@ -1,7 +1,7 @@
 import random from 'random';
 
 // eslint-disable-next-line import/extensions
-import { maxNumber, minNumber } from './env.js'
+import { maxNumber, minNumber } from './env.js';
 
 console.log('Hello world');
 console.log('Your min number: ', minNumber);
