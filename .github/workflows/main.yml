@@ -18,8 +18,10 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Running index.js
+      - name: Running index.js in MAIN
         run: node index.js
         env:
           MINIMUM: ${{ secrets.MINIMUM }}
           MAXIMUM: ${{ secrets.MAXIMUM }}
+
+      - uses: actions/subaction
