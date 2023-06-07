@@ -23,8 +23,8 @@ jobs:
         run: npm ci
 
       - name: Running index.js in SUBFOLDER
+        working-directory: sub
         run: node index.js
-        working-directory: ./sub
         env:
           MAXIMUM_SUBFOLDER: ${{ secrets.MINIMUM }}
           MINIMUM_SUBFOLDER: ${{ secrets.MAXIMUM }}
