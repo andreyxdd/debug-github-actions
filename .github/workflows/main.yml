@@ -24,4 +24,4 @@ jobs:
           MINIMUM: ${{ secrets.MINIMUM }}
           MAXIMUM: ${{ secrets.MAXIMUM }}
 
-      - uses: ./.github/actions/subaction
+      - uses: /actions/subaction.yaml
