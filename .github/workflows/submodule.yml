@@ -1,6 +1,8 @@
 name: Reusable workflow for submodule
 
-on: [workflow_dispatch]
+on:
+  workflow_dispatch:
+  workflow_call:
 
 defaults:
   run:
@@ -11,4 +13,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: ./.github/actions/do_action
+      - name: Checkout repository content
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Running index.js in SUBFOLDER
+        run: node index.js
+        env:
+          MAXIMUM_SUBFOLDER: ${{ secrets.MINIMUM }}
+          MINIMUM_SUBFOLDER: ${{ secrets.MAXIMUM }}
