@@ -1,6 +1,6 @@
 name: Main
 
-on: workflow_dispatch
+on: [workflow_dispatch]
 
 jobs:
   main-flow:
@@ -24,5 +24,4 @@ jobs:
           MINIMUM: ${{ secrets.MINIMUM }}
           MAXIMUM: ${{ secrets.MAXIMUM }}
 
-      - uses: ./.github/actions
-        working-directory: subfolder
+      - uses: ./.github/actions/do_action
