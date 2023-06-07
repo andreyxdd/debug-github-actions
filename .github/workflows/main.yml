@@ -24,4 +24,5 @@ jobs:
           MINIMUM: ${{ secrets.MINIMUM }}
           MAXIMUM: ${{ secrets.MAXIMUM }}
 
-      - uses: /actions/subaction.yaml
+      - uses: ./.github/workflows/submodule.yml
+        secrets: inherit
