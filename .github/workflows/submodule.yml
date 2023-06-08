@@ -7,7 +7,7 @@ defaults:
     working-directory: subfolder
 
 jobs:
-  main-flow:
+  sub-flow:
     runs-on: ubuntu-latest
 
     steps:

@@ -18,8 +18,11 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Hello world action step
-        uses: ./workflows/actions/hello-world.yaml
+      - uses: actions/checkout@v1
+        name: Checkout an Action
+
+      - uses: ./.github/actions/hello-world
+        name: Hello world action step
         with:
           min: ${{ secrets.MINIMUM }}
           max: ${{ secrets.MAXIMUM }}
