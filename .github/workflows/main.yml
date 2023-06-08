@@ -19,7 +19,7 @@ jobs:
         run: npm ci
 
       - name: Hello world action step
-        uses: ./workflows/actions/hello-world
+        uses: ./workflows/actions/hello-world.yaml
         with:
           min: ${{ secrets.MINIMUM }}
           max: ${{ secrets.MAXIMUM }}
