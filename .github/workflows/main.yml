@@ -19,7 +19,7 @@ jobs:
         run: npm ci
 
       - name: Hello world action step
-        uses: ./ # Uses an action in the root directory
+        uses: ./workflows/actions/hello-world
         with:
           min: ${{ secrets.MINIMUM }}
           max: ${{ secrets.MAXIMUM }}
