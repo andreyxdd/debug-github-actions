@@ -1,4 +1,8 @@
 FROM node:latest
+
+ENV MIN=${INPUT_MIN}
+ENV MAX=${INPUT_MAX}
+
 WORKDIR /app
 
 COPY package*.json ./

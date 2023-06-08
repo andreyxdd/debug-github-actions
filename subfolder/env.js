@@ -1,4 +1,4 @@
 import 'dotenv/config';
 
-export const maxNumber = process.env.INPUT_MAX;
-export const minNumber = process.env.INPUT_MIN;
+export const maxNumber = process.env.MAX;
+export const minNumber = process.env.MIN;
