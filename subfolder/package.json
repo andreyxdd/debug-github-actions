@@ -2,7 +2,7 @@
   "name": "submodule",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./sub/index.js",
   "type": "module",
   "scripts": {
     "try": "node sub/index.js"
