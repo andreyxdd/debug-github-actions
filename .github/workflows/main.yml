@@ -24,7 +24,6 @@ jobs:
       - uses: ./.github/actions/hello-world
         name: Hello world action step
         with:
-          working-directory: subfolder
           min: ${{ secrets.MINIMUM }}
           max: ${{ secrets.MAXIMUM }}
 
