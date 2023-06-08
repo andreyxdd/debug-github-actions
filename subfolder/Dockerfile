@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:16-alpine
 
 ENV MIN=${INPUT_MIN}
 ENV MAX=${INPUT_MAX}
@@ -10,4 +10,4 @@ RUN npm install --silent
 
 COPY . .
 
-RUN npm run try
+RUN MIN=$MIN MAX=$MAX npm run try
