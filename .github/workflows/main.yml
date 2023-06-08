@@ -21,7 +21,7 @@ jobs:
       - uses: actions/checkout@v1
         name: Checkout an Action
 
-      - uses: ./.github/actions/hello-world
+      - uses: ./subfolder
         name: Hello world action step
         with:
           min: ${{ secrets.MINIMUM }}
