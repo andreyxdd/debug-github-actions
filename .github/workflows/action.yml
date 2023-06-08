@@ -1,0 +1,16 @@
+name: 'Hello World Action'
+
+inputs:
+  min:  # id of input
+    description: 'API MIN'
+    required: true
+  max:  # id of input
+    description: 'API MAX'
+    required: true
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.max }}
+    - ${{ inputs.min }}
