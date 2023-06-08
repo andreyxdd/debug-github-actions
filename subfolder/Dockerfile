@@ -13,4 +13,4 @@ RUN npm install --silent
 
 COPY . .
 
-RUN npm run try
+CMD ["npm","run","try"]
