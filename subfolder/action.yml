@@ -11,14 +11,12 @@ inputs:
 runs:
   using: "composite"
   steps:
-    - name: Install dependencies
-      run: npm ci
+    - run: npm ci
       shell: bash
       working-directory: ./subfolder
-    - name: Running index.js in SUBFOLDER
+    - run: node ./sub/index.js
       shell: bash
-      run: node ./sub/index.js
+      working-directory: ./subfolder
       env:
-        MAX: ${{ inputs.MIN }}
-        MIN: ${{ inputs.MAX }}
-      working-directory: ./subfolder
+        MAX: ${{ secrets.MIN }}
+        MIN: ${{ secrets.MAX }}
