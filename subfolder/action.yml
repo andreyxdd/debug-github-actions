@@ -18,5 +18,5 @@ runs:
       shell: bash
       working-directory: ./subfolder
       env:
-        MAX: ${{ secrets.MIN }}
-        MIN: ${{ secrets.MAX }}
+        MAX: ${{ inputs.MIN }}
+        MIN: ${{ inputs.MAX }}
