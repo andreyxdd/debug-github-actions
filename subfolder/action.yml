@@ -17,6 +17,6 @@ runs:
     - name: Running index.js in SUBFOLDER
       run: node ./sub/index.js
       env:
-        MAX: ${{ secrets.MINIMUM }}
-        MIN: ${{ secrets.MAXIMUM }}
+        MAX: ${{ inputs.MIN }}
+        MIN: ${{ inputs.MAX }}
       working-directory: ./subfolder
