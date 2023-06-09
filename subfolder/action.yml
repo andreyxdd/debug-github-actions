@@ -9,11 +9,11 @@ inputs:
     required: true
 
 runs:
+  using: "composite"
   steps:
     - name: Install dependencies
       run: npm ci
       working-directory: ./subfolder
-
     - name: Running index.js in SUBFOLDER
       run: node ./sub/index.js
       env:
