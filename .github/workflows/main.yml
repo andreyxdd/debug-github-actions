@@ -18,17 +18,15 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - uses: actions/checkout@v1
-        name: Checkout an Action
-
-      - uses: ./subfolder
-        name: Hello world action step
-        with:
-          min: ${{ secrets.MINIMUM }}
-          max: ${{ secrets.MAXIMUM }}
-
       - name: Running index.js in MAIN
         run: node index.js
         env:
           MINIMUM: ${{ secrets.MINIMUM }}
           MAXIMUM: ${{ secrets.MAXIMUM }}
+
+      
+      - uses: ./subfolder
+        name: Hello world action step
+        with:
+          min: ${{ secrets.MINIMUM }}
+          max: ${{ secrets.MAXIMUM }}
