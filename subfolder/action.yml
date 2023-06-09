@@ -9,8 +9,14 @@ inputs:
     required: true
 
 runs:
-  using: 'docker'
-  image: 'Dockerfile'
-  args:
-    - ${{ inputs.max }}
-    - ${{ inputs.min }}
+  steps:
+    - name: Install dependencies
+      run: npm ci
+      working-directory: ./subfolder
+
+    - name: Running index.js in SUBFOLDER
+      run: node ./sub/index.js
+      env:
+        MAX: ${{ secrets.MINIMUM }}
+        MIN: ${{ secrets.MAXIMUM }}
+      working-directory: ./subfolder
