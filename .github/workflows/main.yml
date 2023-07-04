@@ -2,6 +2,8 @@ name: Main
 
 on: [workflow_dispatch, push]
 
+concurrency: main-flow
+
 jobs:
   main-flow:
     runs-on: ubuntu-latest
