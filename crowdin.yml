@@ -1,7 +1,6 @@
 targets:
   - name: translations
     sources:
-      - common/*.json
-      - pages/*.json
-    file: /public/locales/%two_letters_code%/%file_name%.json
+      - pages/ambassadors.json
+    file: /public/locales/%two_letters_code%/ambassadors.json
     format: crowdin-json
