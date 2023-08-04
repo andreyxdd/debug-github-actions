@@ -4,3 +4,8 @@ targets:
       - pages/ambassadors.json
     file: /public/locales/%two_letters_code%/ambassadors.json
     format: crowdin-json
+  - name: index
+    sources:
+      - pages/index.json
+    file: /public/locales/%two_letters_code%/index.json
+    format: crowdin-json
