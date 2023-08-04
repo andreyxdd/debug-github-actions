@@ -1,0 +1,1442 @@
+[
+    {
+        "identifier": "dex_cards.\"components.dex_cards@title\"",
+        "source_string": "Unlocking freedom with Decentralized Finance",
+        "translation": "Merkezi Olmayan Finans ile özgürlüğün kilidini açın",
+        "context": "dex_cards -> components.dex_cards@title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "dex_cards.\"components.dex_cards@title_0\"",
+        "source_string": "Nominator pools",
+        "translation": "Nominator havuzları",
+        "context": "dex_cards -> components.dex_cards@title_0",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "dex_cards.\"components.dex_cards@description_0\"",
+        "source_string": "Use Toncoin for contribution to network security.",
+        "translation": "Ağ güvenliğine katkıda bulunmak için Toncoin kullanın.",
+        "context": "dex_cards -> components.dex_cards@description_0",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "dex_cards.\"components.dex_cards@linktext_0\"",
+        "source_string": "Explore options",
+        "translation": "Seçenekleri keşfet",
+        "context": "dex_cards -> components.dex_cards@linktext_0",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "dex_cards.\"components.dex_cards@title_1\"",
+        "source_string": "Buy and trade",
+        "translation": "Satın al ve ticaret yap",
+        "context": "dex_cards -> components.dex_cards@title_1",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "dex_cards.\"components.dex_cards@description_1\"",
+        "source_string": "Swap currencies on decentralized exchanges.",
+        "translation": "Merkeziyetsiz borsalarda kripto  para birimlerini takas et.",
+        "context": "dex_cards -> components.dex_cards@description_1",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "dex_cards.\"components.dex_cards@linktext_1\"",
+        "source_string": "Swap currencies",
+        "translation": "Kripto para birimlerini takas et",
+        "context": "dex_cards -> components.dex_cards@linktext_1",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "dex_cards.\"components.dex_cards@title_2\"",
+        "source_string": "Cross-chain transfers",
+        "translation": "Zincirler arası transferler",
+        "context": "dex_cards -> components.dex_cards@title_2",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "dex_cards.\"components.dex_cards@description_2\"",
+        "source_string": "Transfer your tokens from Ethereum to TON.",
+        "translation": "Tokenlarınızı Ethereum ağından  TON'a aktarın.",
+        "context": "dex_cards -> components.dex_cards@description_2",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "dex_cards.\"components.dex_cards@linktext_2\"",
+        "source_string": "Go to bridge",
+        "translation": "Köprüye git",
+        "context": "dex_cards -> components.dex_cards@linktext_2",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "app_name",
+        "source_string": "The Open Network for everyone",
+        "translation": "Herkes için The Open Network",
+        "context": " -> app_name",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "app_title",
+        "source_string": "TON: The Open Network for everyone",
+        "translation": "TON: Herkes için The Open Network",
+        "context": " -> app_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "app_description",
+        "source_string": "A decentralized and open internet, created by the community using a technology designed by Telegram.",
+        "translation": "Telegram tarafından tasarlanan bir teknoloji kullanılarak tamamen topluluk tarafından oluşturulan merkeziyetsiz ve açık bir İnternet.",
+        "context": " -> app_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "toncoin_page_title",
+        "source_string": "Toncoin: The future of currency",
+        "translation": "Toncoin: Paranın geleceği",
+        "context": " -> toncoin_page_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "toncoin_page_description",
+        "source_string": "Toncoin is TON's native cryptocurrency. It is used for network operations, transactions, games or collectibles built on TON.",
+        "translation": "Toncoin, TON'un yerel kripto para birimidir. Ağdaki işlevler, işlemler, oyunlar veya TON üzerine inşa edilmiş koleksiyonlar için kullanılır.",
+        "context": " -> toncoin_page_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "validator_page_title",
+        "source_string": "Become a Validator",
+        "translation": "Validatör olun",
+        "context": " -> validator_page_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "validator_page_description",
+        "source_string": "TON uses Proof of Stake (PoS) consensus model. It means that the network’s security and stability is maintained by a set of network validators. Anyone can become a validator and receive Toncoin as a reward while contributing to network security.",
+        "translation": "TON uses the Proof of Stake (PoS) consensus model. Anyone can become a validator and earn Toncoin while contributing to network security.",
+        "context": " -> validator_page_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "roadmap_page_title",
+        "source_string": "TON’s roadmap",
+        "translation": "TON'un yol haritası",
+        "context": " -> roadmap_page_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "roadmap_page_description",
+        "source_string": "Learn about the history of The Open Network and our roadmap for upcoming products.",
+        "translation": "The Open Network'ün geçmişi ve gelecek ürünler için yol haritamız hakkında bilgi edinin.",
+        "context": " -> roadmap_page_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "community_page_title",
+        "source_string": "Join the community",
+        "translation": "Topluluğa katılın",
+        "context": " -> community_page_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "community_page_description",
+        "source_string": "Ask questions, share ideas and participate in breakfasts, hubs, local events with people who love TON.",
+        "translation": "Ask questions and share ideas with people who love TON.",
+        "context": " -> community_page_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "mining_page_title",
+        "source_string": "History of mining",
+        "translation": "Madenciliğin tarihçesi",
+        "context": " -> mining_page_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "mining_page_description",
+        "source_string": "Toncoin was distributed by PoW Givers which are smart contracts with certain amount of Toncoin assigned to them.",
+        "translation": "Toncoin, PoW Givers adı verilen kendilerine belirli miktarda Toncoin atanmış akıllı sözleşmeler aracılığıyla dağıtılmıştı.",
+        "context": " -> mining_page_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "stake_page_title",
+        "source_string": "Contribute to network security",
+        "translation": "Ağ güvenliğine katkıda bulunun",
+        "context": " -> stake_page_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "stake_page_description",
+        "source_string": "TON is a Proof of Stake network. It means that its security, and stability is maintained by Validators. Anyone can become a validator or join validator pool. As a result you will earn Toncoin while contributing to network security.",
+        "translation": "TON, Proof of Stake temelli bir ağdır. Bu, güvenliğinin ve istikrarının Validatörler (Doğrulayıcılar) tarafından sağlandığı anlamına gelir. Herkes validatör olabilir veya doğrulayıcı havuzuna katılabilir. Sonuç olarak, ağ güvenliğine katkıda bulunurken Toncoin kazanmış olacaksınız.",
+        "context": " -> stake_page_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "contest_page_title",
+        "source_string": "TON Smart Challenge",
+        "translation": "TON Akıllı Sözleşme Yarışması",
+        "context": " -> contest_page_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "contest_page_description",
+        "source_string": "Contest for FunC developers with 22,022 TON total prize fund",
+        "translation": "FunC geliştiricileri için toplam 22.022 TON ödüllü yarışma",
+        "context": " -> contest_page_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "contest_page_title_2",
+        "source_string": "TON Smart Challenge #2",
+        "translation": "TON Akıllı Sözleşme Yarışması 2",
+        "context": " -> contest_page_title_2",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "contest_page_title_3",
+        "source_string": "TON Design Challenge",
+        "translation": "TON Tasarım Yarışması",
+        "context": " -> contest_page_title_3",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "contest_page_description_2",
+        "source_string": "The TON Smart Challenge is a contest for FunC developers with a total prize fund over 16,000 TON. \nThe contest starts on August 4 at 12:00 UTC.",
+        "translation": "TON Akıllı Sözleşme Yarışması (Smart Challenge), FunC geliştiricileri için oluşturulmuş 16.000 TON'un üzerinde ödül havuzlu bir yarışmadır.\nYarışma 4 Ağustos günü UTC saatiyle saat 12:00'da başlayacaktır.",
+        "context": " -> contest_page_description_2",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "contest_page_description_3",
+        "source_string": "The contest for illustrators and designers will last unit 30 Sept. 18:00 UTC. Up to $40,000 will be distributed among the best contributors.",
+        "translation": "İllüstratör ve tasarımcılara yönelik yarışma 30 Eylül günü UTC saatiyle18:00'a kadar devam edecek olup, dereceye giren katılımcılara toplamda 40.000$'a kadar ödül dağıtılacaktır.",
+        "context": " -> contest_page_description_3",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "analysis_page_title",
+        "source_string": "Blockchain analysis",
+        "translation": "Blok zincir analizi",
+        "context": " -> analysis_page_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "analysis_page_description",
+        "source_string": "A blockchain analysis of TON, Ethereum, and Solana",
+        "translation": "TON, Ethereum ve Solana ağları hakkında blok zinciri analizi",
+        "context": " -> analysis_page_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "brand_assets_title",
+        "source_string": "Brand assets",
+        "translation": "TON kurumsal kimliğinin unsurları",
+        "context": " -> brand_assets_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "brand_assets_description",
+        "source_string": "The marketing of TON in any form of digital or printed communications requires compliance with the following guidelines.",
+        "translation": "Herhangi bir dijital veya basılı mecradaki TON ile ilgili her türlü pazarlama faaliyetlerinde, aşağıdaki yönergelere uyulması gerekmektedir.",
+        "context": " -> brand_assets_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "grants_page_title",
+        "source_string": "Grants",
+        "translation": "Proje Hibeleri",
+        "context": " -> grants_page_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "grants_page_description",
+        "source_string": "The TON Foundation invites talent to imagine and realize\nprojects that have the potential.",
+        "translation": "TON Foundation, yetenekli kişileri potansiyele sahip projeleri hayal etmeye ve gerçekleştirmeye davet ediyor.",
+        "context": " -> grants_page_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "sponsorships_page_title",
+        "source_string": "Sponsorships",
+        "translation": "Sponsorluklar",
+        "context": " -> sponsorships_page_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "sponsorships_page_description",
+        "source_string": "The TON Foundation invites talent to imagine and realize projects that have the potential to integrate with the daily lives of users.",
+        "translation": "TON Vakfı, yetenekli kişileri, kullanıcıların günlük yaşamlarıyla bütünleşme potansiyeline sahip projeleri hayal etmeye ve gerçekleştirmeye davet ediyor.",
+        "context": " -> sponsorships_page_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "buy_toncoin_title",
+        "source_string": "Get or sell Toncoin",
+        "translation": "Toncoin satın alın veya satın",
+        "context": " -> buy_toncoin_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "buy_toncoin_description",
+        "source_string": "You can get Toncoin with bank cards, or exchange it with other crypto. Choose the option most convenient for you.",
+        "translation": "Toncoin'i banka kartlarıyla satın alabilir veya diğer kripto paralarla takas edebilirsiniz. Sizin için en uygun seçeneği seçin.",
+        "context": " -> buy_toncoin_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "ton-smart-challenge-2_title",
+        "source_string": "TON Smart Challenge 2",
+        "translation": "TON Akıllı Sözleşme Yarışması 2",
+        "context": " -> ton-smart-challenge-2_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "ton-smart-challenge-2_description",
+        "source_string": "Contest for FunC developers with 22,022 TON total prize fund.",
+        "translation": "FunC geliştiricileri için toplam 22.022 TON ödüllü yarışma.",
+        "context": " -> ton-smart-challenge-2_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "events_title",
+        "source_string": "TON Events",
+        "translation": "TON Etkinlikleri",
+        "context": " -> events_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "events_description",
+        "source_string": "Stay updated with the TON Events calendar: live and upcoming crypto events, blockchain conferences, meet-ups, hackathons and other promotions.",
+        "translation": "TON Events takvimini kullanarak, devam eden ve yaklaşan kripto etkinlikleri, blok zincir konferansları, buluşmalar, hackathonlar ve diğer promosyonlar hakkındaki gelişmelerden haberdar olun.",
+        "context": " -> events_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "local_communities_title",
+        "source_string": "TON near you",
+        "translation": "Yakınlarınızdaki TON etkinlikleri",
+        "context": " -> local_communities_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "local_communities_description",
+        "source_string": "Find a community near you to meet new people and participate in local events.",
+        "translation": "Yeni insanlarla tanışmak ve yerel etkinliklere katılmak için iletişime geçebileceğiniz bir topluluk bulun.",
+        "context": " -> local_communities_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "wallets_title",
+        "source_string": "Get a wallet",
+        "translation": "Bir cüzdan edinin",
+        "context": " -> wallets_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "wallets_description",
+        "source_string": "To start using TON, you need to have a wallet. It's an app that will hold your Toncoins and help you to interact with other apps inside the network.",
+        "translation": "TON ekosistemini kullanmaya başlamak için bir cüzdanınızın olması gerekir. Bu, Toncoin'lerinizi saklamanıza ve ağ içindeki diğer uygulamalarla etkileşime girmenize yardımcı olacak bir uygulamadır.",
+        "context": " -> wallets_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "hack-a-ton-1_title",
+        "source_string": "Hack-a-TON 1",
+        "translation": "Hack-a-TON 1",
+        "context": " -> hack-a-ton-1_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "hack-a-ton-1_description",
+        "source_string": "Contest for JavaScript developers.",
+        "translation": "JavaScript geliştiricileri için yarışma.",
+        "context": " -> hack-a-ton-1_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "ton-news_title",
+        "source_string": "TON News",
+        "translation": "TON'dan Haberler",
+        "context": " -> ton-news_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "ton-news_description",
+        "source_string": "Find out the latest updates of The Open Network blockchain.",
+        "translation": "The Open Network blok zinciri hakkındaki en son gelişmeleri öğrenin.",
+        "context": " -> ton-news_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "contest_page_title_testing",
+        "source_string": "TON Test Challenge",
+        "translation": "TON Test Yarışması",
+        "context": " -> contest_page_title_testing",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "contest_page_description_testing",
+        "source_string": "The contest for testers will last unit Sept. 25 18:00 UTC. $50,000 will be distributed among the best participants, and the winners may get\na job offer at the TON Foundation.",
+        "translation": "Test uzmanları için düzenlenen yarışma 25 Eylül günü UTC saatiyle 18:00'e kadar devam edecektir. Yarışma kapsamında en iyi performans gösteren katılımcılara toplam 50.000$ ödül dağıtılacak ve yarışmayı kazanan katılımcılara \nTON Foundation tarafından iş teklif edilebilecektir.",
+        "context": " -> contest_page_description_testing",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "dev_page_title",
+        "source_string": "Start building on The Open Network",
+        "translation": "The Open Network üzerinde proje geliştirmeye başlayın",
+        "context": " -> dev_page_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "dev_page_description",
+        "source_string": "Learn how the blockchain and services TON work, as well as how to develop decentralized app and create smart contracts",
+        "translation": "Blok zincirinin ve TON hizmetlerinin işleyişinin yanı sıra merkeziyetsiz uygulamaların nasıl geliştirileceğini ve akıllı sözleşmelerin nasıl oluşturulacağını öğrenin",
+        "context": " -> dev_page_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "hack_a_ton_program_page_title",
+        "source_string": "Hack-a-TONх program",
+        "translation": "Hack-a-TONх programı",
+        "context": " -> hack_a_ton_program_page_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "hack_a_ton_program_page_description",
+        "source_string": "Organize a hackathon with the TON Foundation team for your community.",
+        "translation": "Topluluğunuz için TON Foundation ekibiyle birlikte bir hackathon düzenleyin.",
+        "context": " -> hack_a_ton_program_page_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "contest_page_title_func",
+        "source_string": "TON Smart Challenge #3",
+        "translation": "TON Akıllı Sözleşme Yarışması 3",
+        "context": " -> contest_page_title_func",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "contest_page_description_func",
+        "source_string": "Contest for FunC developers with 50,000 TON total prize fund. The contest begins on 2 Dec. 12:00 UTC and lasts until 23 Dec. 18:00 UTC.",
+        "translation": "FunC geliştiricileri için toplam 50.000 TON ödüllü yarışma. Yarışma 2 Aralık günü UTC saatiyle 12:00'de başlayacak ve 23 Aralık günü UTC saatiyle 18:00'e kadar devam edecektir.",
+        "context": " -> contest_page_description_func",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "contact_us_title",
+        "source_string": "Contact us",
+        "translation": "İletişim",
+        "context": " -> contact_us_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "for_org_page_title",
+        "source_string": "For Organizers",
+        "translation": "Organizatörler için",
+        "context": " -> for_org_page_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "for_org_page_description",
+        "source_string": "We invite talented and experienced teams to organize events for local communities and blockchain enthusiasts.",
+        "translation": "Yetenekli ve deneyimli ekipleri yerel topluluklar ve blok zincir meraklıları için etkinlikler düzenlemeye davet ediyoruz.",
+        "context": " -> for_org_page_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "thread_challenge_page_title",
+        "source_string": "TON Thread Challenge",
+        "translation": "TON İçerik Yarışması",
+        "context": " -> thread_challenge_page_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "thread_challenge_page_description",
+        "source_string": "Contest for developers, community managers, content creators and founders — those who work, and build on TON with $10,000 total prize.",
+        "translation": "Geliştiriciler, topluluk yöneticileri, içerik üreticileri ve kurucular, kısaca TON üzerinde çalışmalar gerçekleştiren ve proje geliştiren herkes için toplam 10.000 $ ödüllü bir yarışmadır.",
+        "context": " -> thread_challenge_page_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "ton_web_challenge_title",
+        "source_string": "TON TWA Challenge",
+        "translation": "TON TWA Yarışması",
+        "context": " -> ton_web_challenge_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "ton_web_challenge_description",
+        "source_string": "Contest for Telegram Web Apps developers with $60,000 total prize fund.",
+        "translation": "Telegram Web Uygulamaları geliştiricileri için toplam 60.000 $ ödül havuzlu yarışma.",
+        "context": " -> ton_web_challenge_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "defi_liquidity_title",
+        "source_string": "DeFi Liquidity Incentive Program",
+        "translation": "DeFi Likidite Teşvik Programı",
+        "context": " -> defi_liquidity_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "defi_liquidity_description",
+        "source_string": "A new and fairer liquidity program designed to bootstrap the DeFi ecosystem on The Open Network.",
+        "translation": "The Open Network'te DeFi ekosisteminin önünü açmak için tasarlanmış yeni ve daha adil bir likidite programı.",
+        "context": " -> defi_liquidity_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "ton_wallet_challenge_title",
+        "source_string": "TON Wallet Challenge",
+        "translation": "TON Cüzdan Yarışması",
+        "context": " -> ton_wallet_challenge_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "ton_wallet_challenge_description",
+        "source_string": "The contest with a prize pool of $60,000 for Android, iOS, and desktop developers will last until 22 May 18:00 UTC.",
+        "translation": "Android, iOS ve masaüstü geliştiricilerine yönelik 60.000 $ ödül havuzlu yarışma 22 Mayıs günü UTC saatiyle 18:00'e kadar sürecektir.",
+        "context": " -> ton_wallet_challenge_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "ambassadors_title",
+        "source_string": "Become a TON Ambassador",
+        "translation": "TON Ambassador'u olun",
+        "context": " -> ambassadors_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "ambassadors_description",
+        "source_string": "Fast-track for crypto enthusiasts and Web3 wizards looking to grow the TON community.",
+        "translation": "TON topluluğunu büyütmek isteyen kripto meraklıları ve Web3 uzmanları için hızlı yol.",
+        "context": " -> ambassadors_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "contribute_title",
+        "source_string": "Collaborate with TON",
+        "translation": "TON ile işbirliği yapın",
+        "context": " -> contribute_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "contribute_description",
+        "source_string": "Organise breakfasts, hubs, informal meetings with like-minded people and share ideas.",
+        "translation": "Benzer fikirli kişilerle kahvaltı etkinlikleri, hub'lar, gayri resmi toplantılar düzenleyin ve fikirlerinizi paylaşın.",
+        "context": " -> contribute_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "grow_title",
+        "source_string": "Accelerate you growth",
+        "translation": "Accelerate you growth",
+        "context": " -> grow_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "grow_description",
+        "source_string": "We're growing innovations and new use cases. Get support for your project on all the stages.",
+        "translation": "We're growing innovations and new use cases. Get support for your project on all the stages.",
+        "context": " -> grow_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_banner_title",
+        "source_string": "The Open Network",
+        "translation": "The Open Network",
+        "context": " -> index@main_banner_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_banner_title_mobile_0",
+        "source_string": "The Open",
+        "translation": "The Open",
+        "context": " -> index@main_banner_title_mobile_0",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_banner_title_mobile_1",
+        "source_string": "Network",
+        "translation": "Network",
+        "context": " -> index@main_banner_title_mobile_1",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_banner_title_variant_0",
+        "source_string": "for",
+        "translation": "*",
+        "context": " -> index@main_banner_title_variant_0",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_banner_title_variant_1",
+        "source_string": "everyone",
+        "translation": "herkes için",
+        "context": " -> index@main_banner_title_variant_1",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_banner_title_variant_2",
+        "source_string": "startups",
+        "translation": "startup'lar için",
+        "context": " -> index@main_banner_title_variant_2",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_banner_title_variant_3",
+        "source_string": "creators",
+        "translation": "içerik üreticileri için",
+        "context": " -> index@main_banner_title_variant_3",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_banner_title_variant_4",
+        "source_string": "gamers",
+        "translation": "oyuncular için",
+        "context": " -> index@main_banner_title_variant_4",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_banner_description",
+        "source_string": "A decentralized and open internet, created by the community using a technology designed by Telegram.",
+        "translation": "Telegram tarafından tasarlanan bir teknoloji kullanılarak tamamen topluluk tarafından oluşturulan merkeziyetsiz ve açık bir İnternet.",
+        "context": " -> index@main_banner_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_banner_button_join_community",
+        "source_string": "Join community",
+        "translation": "Topluluğa katılın",
+        "context": " -> index@main_banner_button_join_community",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_banner_button_build_on_ton",
+        "source_string": "Build on TON",
+        "translation": "TON üzerinde geliştirin",
+        "context": " -> index@main_banner_button_build_on_ton",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_wallets_title",
+        "source_string": "Get your wallet to join TON",
+        "translation": "TON'a katılmak için cüzdanınızı edinin",
+        "context": " -> index@main_wallets_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_wallets_mobile_title",
+        "source_string": "Get your wallet\nto join TON",
+        "translation": "TON'a katılmak için\n cüzdanınızı edinin",
+        "context": " -> index@main_wallets_mobile_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_wallets_all_button",
+        "source_string": "Explore all wallets",
+        "translation": "Tüm cüzdanları keşfedin",
+        "context": " -> index@main_wallets_all_button",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_wallets_card_title_0",
+        "source_string": "TON Ecosystem everywhere you go",
+        "translation": "Gittiğiniz her yerde TON Ekosistemine erişin",
+        "context": " -> index@main_wallets_card_title_0",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_wallets_card_description_0",
+        "source_string": "Secure your crypto, NFTs, and easily access TON apps using Tonkeeper.",
+        "translation": "Tonkeeper'ı kullanarak kriptolarınızı, NFT'lerinizi koruma altına alın ve TON uygulamalarına kolayca erişin.",
+        "context": " -> index@main_wallets_card_description_0",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_wallets_card_title_1",
+        "source_string": "Instantly transfer crypto in Telegram",
+        "translation": "Telegram'da anında kripto transferi gerçekleştirin",
+        "context": " -> index@main_wallets_card_title_1",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_wallets_card_description_1",
+        "source_string": "Send and receive crypto from any Telegram user in just a few taps with @wallet.",
+        "translation": "@wallet ile sadece birkaç tıklamayla herhangi bir Telegram kullanıcısına kripto gönderin ve alın.",
+        "context": " -> index@main_wallets_card_description_1",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_toncoin_info_title_0",
+        "source_string": "Cryptocurrency",
+        "translation": "Kripto paralar",
+        "context": " -> index@main_toncoin_info_title_0",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_toncoin_info_title_1",
+        "source_string": "is the heart of TON",
+        "translation": "TON blok zincirinin kalbidir",
+        "context": " -> index@main_toncoin_info_title_1",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_toncoin_info_description",
+        "source_string": "Toncoin is TON's native cryptocurrency. It is used for network operations, transactions, games or collectibles built on TON.",
+        "translation": "Toncoin, TON'un yerel kripto para birimidir. Ağdaki işlevler, işlemler, oyunlar veya TON üzerine inşa edilmiş koleksiyonlar için kullanılır.",
+        "context": " -> index@main_toncoin_info_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_toncoin_info_button",
+        "source_string": "Get Toncoin",
+        "translation": "Toncoin edinin",
+        "context": " -> index@main_toncoin_info_button",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_toncoin_widget_coin",
+        "source_string": "Toncoin (TON)",
+        "translation": "Toncoin (TON)",
+        "context": " -> index@main_toncoin_widget_coin",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_toncoin_widget_24h",
+        "source_string": "last 24h",
+        "translation": "son 24 saat",
+        "context": " -> index@main_toncoin_widget_24h",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_toncoin_widget_rank",
+        "source_string": "Rank",
+        "translation": "Sıralama",
+        "context": " -> index@main_toncoin_widget_rank",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_toncoin_widget_market_cap",
+        "source_string": "Market Cap",
+        "translation": "Market Cap",
+        "context": " -> index@main_toncoin_widget_market_cap",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_toncoin_widget_volume",
+        "source_string": "Volume",
+        "translation": "Hacim",
+        "context": " -> index@main_toncoin_widget_volume",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_toncoin_widget_bottom_text_0",
+        "source_string": "Powered by",
+        "translation": "Veri sağlayıcı:",
+        "context": " -> index@main_toncoin_widget_bottom_text_0",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_toncoin_widget_bottom_text_1",
+        "source_string": "CoinMarketCap",
+        "translation": "CoinMarketCap",
+        "context": " -> index@main_toncoin_widget_bottom_text_1",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@_title",
+        "source_string": "Unlocking freedom with Decentralized Finance",
+        "translation": "Merkezi Olmayan Finans ile özgürlüğün kilidini açın",
+        "context": " -> index@_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@title_0",
+        "source_string": "Nominator pools",
+        "translation": "Nominator havuzları",
+        "context": " -> index@title_0",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@description_0",
+        "source_string": "Use Toncoin for contribution to network security.",
+        "translation": "Ağ güvenliğine katkıda bulunmak için Toncoin kullanın.",
+        "context": " -> index@description_0",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@linktext_0",
+        "source_string": "Explore options",
+        "translation": "Seçenekleri keşfet",
+        "context": " -> index@linktext_0",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@title_1",
+        "source_string": "Buy and trade",
+        "translation": "Satın al ve ticaret yap",
+        "context": " -> index@title_1",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@description_1",
+        "source_string": "Swap currencies on decentralized exchanges.",
+        "translation": "Merkeziyetsiz borsalarda kripto  para birimlerini takas et.",
+        "context": " -> index@description_1",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@linktext_1",
+        "source_string": "Swap currencies",
+        "translation": "Kripto para birimlerini takas et",
+        "context": " -> index@linktext_1",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@title_2",
+        "source_string": "Cross-chain transfers",
+        "translation": "Zincirler arası transferler",
+        "context": " -> index@title_2",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@description_2",
+        "source_string": "Transfer your tokens from Ethereum to TON.",
+        "translation": "Tokenlarınızı Ethereum ağından  TON'a aktarın.",
+        "context": " -> index@description_2",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@linktext_2",
+        "source_string": "Go to bridge",
+        "translation": "Köprüye git",
+        "context": " -> index@linktext_2",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_apps_title",
+        "source_string": "Explore apps and\nservices",
+        "translation": "Explore apps and services",
+        "context": " -> index@main_apps_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_apps_all_button",
+        "source_string": "Explore all ecosystem",
+        "translation": "Ekosistemin tamamını keşfet",
+        "context": " -> index@main_apps_all_button",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_apps_card_title_0",
+        "source_string": "Anonymous eSIM",
+        "translation": "Anonim eSIM",
+        "context": " -> index@main_apps_card_title_0",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_apps_card_description_0",
+        "source_string": "Affordable and secure mobile internet provider for home and travel.",
+        "translation": "Yurtiçinde ve seyahat sırasında kullanım için uygun fiyatlı ve güvenli mobil İnternet sağlayıcısı.",
+        "context": " -> index@main_apps_card_description_0",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_apps_card_title_1",
+        "source_string": "Easy-to-remember address",
+        "translation": "Hatırlaması kolay adres",
+        "context": " -> index@main_apps_card_title_1",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_apps_card_description_1",
+        "source_string": "Your wallet or website can be easily found in the TON network.",
+        "translation": "Cüzdan adresiniz ya da web siteniz TON ağında kolayca bulunabilir.",
+        "context": " -> index@main_apps_card_description_1",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_apps_card_title_2",
+        "source_string": "Affordable VPN",
+        "translation": "Uygun fiyatlı VPN",
+        "context": " -> index@main_apps_card_title_2",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_apps_card_description_2",
+        "source_string": "A fast, secure, and affordable way to protect your internet freedom.",
+        "translation": "İnternet özgürlüğünüzü korumanın hızlı, güvenli ve uygun maliyetli yolu.",
+        "context": " -> index@main_apps_card_description_2",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_apps_card_3_title",
+        "source_string": "Buy Telegram Premium",
+        "translation": "Telegram Premium satın al",
+        "context": " -> index@main_apps_card_3_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_apps_card_3_description",
+        "source_string": "Use your crypto wallet to pay for subscriptions for yourself and friends.",
+        "translation": "Kendiniz ve arkadaşlarınız için abonelik ödemesi yapmak için kripto cüzdanınızı kullanın.",
+        "context": " -> index@main_apps_card_3_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_apps_card_4_title",
+        "source_string": "Unique collectibles",
+        "translation": "Benzersiz koleksiyon ürünleri",
+        "context": " -> index@main_apps_card_4_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_apps_card_4_description",
+        "source_string": "Explore, buy, and sell collectibles used in games and services.",
+        "translation": "Oyunlarda ve hizmetlerde kullanılan koleksiyon ürünlerini keşfedin, satın alın ve satın.",
+        "context": " -> index@main_apps_card_4_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_apps_card_5_title",
+        "source_string": "Explore hundreds more apps and services",
+        "translation": "Yüzlerce diğer uygulama ve hizmeti keşfedin",
+        "context": " -> index@main_apps_card_5_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_apps_card_5_button",
+        "source_string": "Explore all",
+        "translation": "Tamamını keşfet",
+        "context": " -> index@main_apps_card_5_button",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_blockchain_cards_title_1",
+        "source_string": "The network is based on",
+        "translation": "Ağ, geniş kitleler tarafından benimsenen",
+        "context": " -> index@main_blockchain_cards_title_1",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_blockchain_cards_title_2",
+        "source_string": "a mass adoption blockchain",
+        "translation": "bir blok zincirine dayanmaktadır",
+        "context": " -> index@main_blockchain_cards_title_2",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_blockchain_cards_button_1",
+        "source_string": "Start building",
+        "translation": "Geliştirmeye başlayın",
+        "context": " -> index@main_blockchain_cards_button_1",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_blockchain_cards_button_2",
+        "source_string": "Roadmap",
+        "translation": "Yol Haritası",
+        "context": " -> index@main_blockchain_cards_button_2",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_blockchain_card_title_0",
+        "source_string": "Layer-1 blockchain",
+        "translation": "Layer-1 blok zinciri",
+        "context": " -> index@main_blockchain_card_title_0",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_blockchain_card_description_0",
+        "source_string": "Ultra-scalable, designed by Telegram to onboard billions of users.",
+        "translation": "Ultra ölçeklenebilir bu blok zinciri, Telegram tarafından milyarlarca kullanıcıya hizmet vermek üzere tasarlanmıştır.",
+        "context": " -> index@main_blockchain_card_description_0",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_blockchain_card_title_1",
+        "source_string": "Decentralized",
+        "translation": "Merkeziyetsiz",
+        "context": " -> index@main_blockchain_card_title_1",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_blockchain_card_description_1",
+        "source_string": "TON is a Proof-of-Stake network maintained by independent validators.",
+        "translation": "TON, bağımsız validatörler tarafından sürdürülen Proof-of-Stake temelli bir ağdır.",
+        "context": " -> index@main_blockchain_card_description_1",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_blockchain_card_title_2",
+        "source_string": "Tiny fees",
+        "translation": "Çok düşük ücretler",
+        "context": " -> index@main_blockchain_card_title_2",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_blockchain_card_description_2",
+        "source_string": "The average transaction cost is just a few cents.",
+        "translation": "Ortalama işlem maliyeti sadece birkaç senttir.",
+        "context": " -> index@main_blockchain_card_description_2",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_blockchain_card_3_title",
+        "source_string": "Secure",
+        "translation": "Güvenli",
+        "context": " -> index@main_blockchain_card_3_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_blockchain_card_3_description",
+        "source_string": "TON is audited by global security firms including [CertiK](https:\/\/www.certik.com\/projects\/the-open-network), [Chainsulting](https:\/\/github.com\/chainsulting\/Smart-Contract-Security-Audits\/tree\/master\/TON) and [SlowMist](https:\/\/github.com\/slowmist\/Knowledge-Base\/raw\/master\/open-report-V2\/blockchain\/SlowMist%20Audit%20Report%20-%20TON_en-us.pdf).",
+        "translation": "TON, [CertiK](https:\/\/www.certik.com\/projects\/the-open-network), [Chainsulting](https:\/\/github.com\/chainsulting\/Smart-Contract-Security-Audits\/tree\/master\/TON) ve [SlowMist](https:\/\/github.com\/slowmist\/Knowledge-Base\/raw\/master\/open-report-V2\/blockchain\/SlowMist%20Audit%20Report%20-%20TON_en-us.pdf) gibi küresel güvenlik firmaları tarafından denetlenmektedir.",
+        "context": " -> index@main_blockchain_card_3_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_blockchain_card_4_title",
+        "source_string": "World-class speed",
+        "translation": "Dünya standartlarında hız",
+        "context": " -> index@main_blockchain_card_4_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_blockchain_card_4_description",
+        "source_string": "Transactions are confirmed in a matter of seconds.",
+        "translation": "İşlemler saniyeler içerisinde onaylanır.",
+        "context": " -> index@main_blockchain_card_4_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@community_title",
+        "source_string": "Be part of TON movement",
+        "translation": "TON topluluğa katılın",
+        "context": " -> index@community_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@join_community_title",
+        "source_string": "Join TON Community",
+        "translation": "TON Topluluğu'na katılın",
+        "context": " -> index@join_community_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@join_community_subtitle",
+        "source_string": "Ask questions, share ideas and participate in breakfasts, hubs, local events with people who love TON.",
+        "translation": "Sorular sorun, fikirlerinizi paylaşın ve TON'a ilgili duyan insanlarla kahvaltı etkinliklerine, hub'lara ve yerel etkinliklere katılın.",
+        "context": " -> index@join_community_subtitle",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@join_community_explore",
+        "source_string": "Explore all",
+        "translation": "Hepsini keşfedin",
+        "context": " -> index@join_community_explore",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@community_card_title_0",
+        "source_string": "Collaborate with TON",
+        "translation": "TON ile işbirliği yapın",
+        "context": " -> index@community_card_title_0",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@community_card_0_subtitle",
+        "source_string": "Organise breakfasts, hubs, informal meetings with like-minded people and share ideas.",
+        "translation": "Benzer fikirli kişilerle kahvaltı etkinlikleri, hub'lar, gayri resmi toplantılar düzenleyin ve fikirlerinizi paylaşın.",
+        "context": " -> index@community_card_0_subtitle",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@community_card_0_button",
+        "source_string": "Collaborate with TON",
+        "translation": "TON ile işbirliği yapın",
+        "context": " -> index@community_card_0_button",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@community_card_title_1",
+        "source_string": "Become an ambassador",
+        "translation": "Ambassador olun",
+        "context": " -> index@community_card_title_1",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@community_card_1_subtitle",
+        "source_string": "Fast-track for crypto enthusiasts and Web3 wizards looking to grow the TON community.",
+        "translation": "TON topluluğunu büyütmek isteyen kripto meraklıları ve Web3 uzmanları için hızlı yol.",
+        "context": " -> index@community_card_1_subtitle",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@community_card_1_button",
+        "source_string": "Turn into TON Ambassador",
+        "translation": "TON Ambassador'u olmak için",
+        "context": " -> index@community_card_1_button",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@channel_title",
+        "source_string": "Telegram channel",
+        "translation": "Telegram kanalı",
+        "context": " -> index@channel_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@english_channel",
+        "source_string": "English channel",
+        "translation": "Türkçe kanalı",
+        "context": " -> index@english_channel",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@total_members",
+        "source_string": "Total community members",
+        "translation": "Toplam topluluk üyeleri",
+        "context": " -> index@total_members",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "about_title",
+        "source_string": "What is TON Ambassadors?",
+        "translation": "What is TON Ambassadors?",
+        "context": " -> about_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "about_description",
+        "source_string": "Are you passionate about the world of crypto and looking to take your journey to the next level? The Open Network is excited to introduce TON Ambassadors, designed for crypto enthusiasts.",
+        "translation": "Are you passionate about the world of crypto and looking to take your journey to the next level? The Open Network is excited to introduce TON Ambassadors, designed for crypto enthusiasts.",
+        "context": " -> about_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "about_note",
+        "source_string": "The TON Ambassadors Program is open to all individuals passionate about crypto, regardless of their skill level. It unlocks exclusive access, opportunities, and benefits within the TON ecosystem.",
+        "translation": "The TON Ambassadors Program is open to all individuals passionate about crypto, regardless of their skill level. It unlocks exclusive access, opportunities, and benefits within the TON ecosystem.",
+        "context": " -> about_note",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "use_cases_access",
+        "source_string": "__Early access__ to development and ties to the founders.",
+        "translation": "__Early access__ to development and ties to the founders.",
+        "context": " -> use_cases_access",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "use_cases_meetups",
+        "source_string": "Exclusive __monthly meetups__ with core members.",
+        "translation": "Exclusive __monthly meetups__ with core members.",
+        "context": " -> use_cases_meetups",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "use_cases_partnership",
+        "source_string": "Direct access to __partnership and AMA__ opportunities.",
+        "translation": "Direct access to __partnership and AMA__ opportunities.",
+        "context": " -> use_cases_partnership",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "use_cases_job",
+        "source_string": "Potential __internships, jobs, and progression__ within TON.",
+        "translation": "Potential __internships, jobs, and progression__ within TON.",
+        "context": " -> use_cases_job",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "use_cases_merch",
+        "source_string": "Limited edition __TON merch__.",
+        "translation": "Limited edition __TON merch__.",
+        "context": " -> use_cases_merch",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "use_cases_coaching",
+        "source_string": "__Сoaching__ to enhance your crypto professional skills.",
+        "translation": "__Сoaching__ to enhance your crypto professional skills.",
+        "context": " -> use_cases_coaching",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "use_cases_ton_title",
+        "source_string": "__TON Ambassadors title__, recognition member of TON.",
+        "translation": "__TON Ambassadors title__, recognition member of TON.",
+        "context": " -> use_cases_ton_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "use_cases_volunteer",
+        "source_string": "Opportunities to become a __paid volunteer__.",
+        "translation": "Opportunities to become a __paid volunteer__.",
+        "context": " -> use_cases_volunteer",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "use_cases_benefit",
+        "source_string": "Over time, additional benefits may appear.",
+        "translation": "Over time, additional benefits may appear.",
+        "context": " -> use_cases_benefit",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "use_cases_title",
+        "source_string": "Get access to unique opportunities",
+        "translation": "Get access to unique opportunities",
+        "context": " -> use_cases_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "goals_title",
+        "source_string": "Our goals",
+        "translation": "Our goals",
+        "context": " -> goals_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "goals_description",
+        "source_string": "The above benefits provide a glimpse into the vast potential that lies ahead for those who join TON Ambassadors. Through ongoing assessment, guidance and coaching from multiple stakeholders in the TON ecosystem, we strive to develop well-rounded crypto professionals with diverse skills and the ability to excel in various roles.",
+        "translation": "The above benefits provide a glimpse into the vast potential that lies ahead for those who join TON Ambassadors. Through ongoing assessment, guidance and coaching from multiple stakeholders in the TON ecosystem, we strive to develop well-rounded crypto professionals with diverse skills and the ability to excel in various roles.",
+        "context": " -> goals_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "goals_note",
+        "source_string": "You will have the opportunity to thrive within the TON ecosystem and ultimately emerge as an improved version of yourself. Of course, we hope you'll choose to stay with us on this journey.",
+        "translation": "You will have the opportunity to thrive within the TON ecosystem and ultimately emerge as an improved version of yourself. Of course, we hope you'll choose to stay with us on this journey.",
+        "context": " -> goals_note",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "join_movement_title",
+        "source_string": "Join the movement",
+        "translation": "Join the movement",
+        "context": " -> join_movement_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "join_movement_subtitle",
+        "source_string": "Apply now to be a part of the TON community and take your crypto career to new heights. We review all applications, successful candidates will be notified.",
+        "translation": "Apply now to be a part of the TON community and take your crypto career to new heights. We review all applications, successful candidates will be notified.",
+        "context": " -> join_movement_subtitle",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "join_now",
+        "source_string": "Join now",
+        "translation": "Join now",
+        "context": " -> join_now",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "become_title",
+        "source_string": "Become a",
+        "translation": "Become a",
+        "context": " -> become_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "ambassador_title",
+        "source_string": "TON Ambassador",
+        "translation": "TON Ambassador",
+        "context": " -> ambassador_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "ambassador_subtitle",
+        "source_string": "Fast-track for crypto enthusiasts and Web3 wizards looking to grow the TON community.",
+        "translation": "Fast-track for crypto enthusiasts and Web3 wizards looking to grow the TON community.",
+        "context": " -> ambassador_subtitle",
+        "labels": null,
+        "max_length": null
+    }
+]
