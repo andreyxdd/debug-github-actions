@@ -3,5 +3,5 @@ targets:
     sources:
       - common/*.json
       - pages/*.json
-    file: /public/%two_letters_code%/%original_file_name%
+    file: /public/locales/%two_letters_code%/%file_name%.json
     format: crowdin-json
