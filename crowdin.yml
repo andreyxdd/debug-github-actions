@@ -1,0 +1,7 @@
+targets:
+  - name: translations
+    sources:
+      - common/*.json
+      - pages/*.json
+    file: /public/%two_letters_code%/%original_file_name%
+    format: crowdin-json
