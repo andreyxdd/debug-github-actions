@@ -1,0 +1,1442 @@
+[
+    {
+        "identifier": "dex_cards.\"components.dex_cards@title\"",
+        "source_string": "Unlocking freedom with Decentralized Finance",
+        "translation": "विकेंद्रीकृत वित्त के साथ स्वतंत्रता को अनलॉक करना",
+        "context": "dex_cards -> components.dex_cards@title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "dex_cards.\"components.dex_cards@title_0\"",
+        "source_string": "Nominator pools",
+        "translation": "नॉमिनेटर पूल",
+        "context": "dex_cards -> components.dex_cards@title_0",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "dex_cards.\"components.dex_cards@description_0\"",
+        "source_string": "Use Toncoin for contribution to network security.",
+        "translation": "नेटवर्क सुरक्षा में योगदान के लिए Toncoin का उपयोग करें।",
+        "context": "dex_cards -> components.dex_cards@description_0",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "dex_cards.\"components.dex_cards@linktext_0\"",
+        "source_string": "Explore options",
+        "translation": "विकल्पों को एक्स्प्लोर करे",
+        "context": "dex_cards -> components.dex_cards@linktext_0",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "dex_cards.\"components.dex_cards@title_1\"",
+        "source_string": "Buy and trade",
+        "translation": "खरीदें और व्यापार करें",
+        "context": "dex_cards -> components.dex_cards@title_1",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "dex_cards.\"components.dex_cards@description_1\"",
+        "source_string": "Swap currencies on decentralized exchanges.",
+        "translation": "विकेंद्रीकृत एक्सचेंजों पर मुद्रा स्वैप करें",
+        "context": "dex_cards -> components.dex_cards@description_1",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "dex_cards.\"components.dex_cards@linktext_1\"",
+        "source_string": "Swap currencies",
+        "translation": "मुद्राओं को स्वैप करें",
+        "context": "dex_cards -> components.dex_cards@linktext_1",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "dex_cards.\"components.dex_cards@title_2\"",
+        "source_string": "Cross-chain transfers",
+        "translation": "क्रॉस-चेन ट्रांसफर",
+        "context": "dex_cards -> components.dex_cards@title_2",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "dex_cards.\"components.dex_cards@description_2\"",
+        "source_string": "Transfer your tokens from Ethereum to TON.",
+        "translation": "अपने टोकन को एथेरियम से TON में स्थानांतरित करें",
+        "context": "dex_cards -> components.dex_cards@description_2",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "dex_cards.\"components.dex_cards@linktext_2\"",
+        "source_string": "Go to bridge",
+        "translation": "Go to bridge",
+        "context": "dex_cards -> components.dex_cards@linktext_2",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "app_name",
+        "source_string": "The Open Network for everyone",
+        "translation": "सभी के लिए खुला नेटवर्क",
+        "context": " -> app_name",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "app_title",
+        "source_string": "TON: The Open Network for everyone",
+        "translation": "TON: सभी के लिए खुला नेटवर्क",
+        "context": " -> app_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "app_description",
+        "source_string": "A decentralized and open internet, created by the community using a technology designed by Telegram.",
+        "translation": "टेलीग्राम द्वारा डिज़ाइन की गई तकनीक का उपयोग करके समुदाय द्वारा बनाया गया विकेंद्रीकृत और खुला इंटरनेट।",
+        "context": " -> app_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "toncoin_page_title",
+        "source_string": "Toncoin: The future of currency",
+        "translation": "Toncoin: करेंसी का भविष्य",
+        "context": " -> toncoin_page_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "toncoin_page_description",
+        "source_string": "Toncoin is TON's native cryptocurrency. It is used for network operations, transactions, games or collectibles built on TON.",
+        "translation": "Toncoin TON की स्थानीय क्रिप्टोकरेंसी है। इसका उपयोग TON पर निर्मित नेटवर्क संचालन, लेनदेन, गेम या संग्रहणीय वस्तुओं के लिए किया जाता है।",
+        "context": " -> toncoin_page_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "validator_page_title",
+        "source_string": "Become a Validator",
+        "translation": "एक वैलीडेटर बनें",
+        "context": " -> validator_page_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "validator_page_description",
+        "source_string": "TON uses Proof of Stake (PoS) consensus model. It means that the network’s security and stability is maintained by a set of network validators. Anyone can become a validator and receive Toncoin as a reward while contributing to network security.",
+        "translation": "TON प्रूफ ऑफ स्टेक (PoS) कन्सेन्सस मॉडल का इस्तेमाल करता है, कन्सेन्सस को वैलीडेटर द्वारा मेन्टेन किया जाता है, नेटवर्क प्रतिभागी जो ब्लॉक की वैलिडिटी को चेक करते हैं। कोई भी वैलिडेटर बन सकता है और नेटवर्क सुरक्षा में योगदान देते हुए Toncoin कमा सकता है।",
+        "context": " -> validator_page_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "roadmap_page_title",
+        "source_string": "TON’s roadmap",
+        "translation": "TON का रोडमैप",
+        "context": " -> roadmap_page_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "roadmap_page_description",
+        "source_string": "Learn about the history of The Open Network and our roadmap for upcoming products.",
+        "translation": "ओपन नेटवर्क की हिस्ट्री और आने वाले प्रोडक्ट के लिए हमारे रोडमैप के बारे में जानें।",
+        "context": " -> roadmap_page_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "community_page_title",
+        "source_string": "Join the community",
+        "translation": "समुदाय में शामिल हों",
+        "context": " -> community_page_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "community_page_description",
+        "source_string": "Ask questions, share ideas and participate in breakfasts, hubs, local events with people who love TON.",
+        "translation": "TON को पसंद करने वाले लोगों के साथ प्रश्न पूछें, विचार साझा करें और नाश्ते, हब, स्थानीय कार्यक्रमों में भाग लें।",
+        "context": " -> community_page_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "mining_page_title",
+        "source_string": "History of mining",
+        "translation": "माइनिंग का इतिहास",
+        "context": " -> mining_page_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "mining_page_description",
+        "source_string": "Toncoin was distributed by PoW Givers which are smart contracts with certain amount of Toncoin assigned to them.",
+        "translation": "Toncoin को PoW गिवर्स द्वारा बांटा गया था जो उन्हें असाइन किए गए Toncoin की निश्चित राशि के साथ स्मार्ट कान्ट्रैक्ट हैं",
+        "context": " -> mining_page_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "stake_page_title",
+        "source_string": "Contribute to network security",
+        "translation": "नेटवर्क सुरक्षा में योगदान करें",
+        "context": " -> stake_page_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "stake_page_description",
+        "source_string": "TON is a Proof of Stake network. It means that its security, and stability is maintained by Validators. Anyone can become a validator or join validator pool. As a result you will earn Toncoin while contributing to network security.",
+        "translation": "TON एक प्रूफ-ऑफ-स्टेक नेटवर्क है। इसका मतलब है कि इसकी सुरक्षा और स्थिरता वैलिडेटर द्वारा बनाए रखी जाती है। कोई भी वैलिडेटर बन सकता है या वैलिडेटर्स पूल में शामिल हो सकता है। परिणामस्वरूप आप नेटवर्क सुरक्षा में योगदान करते हुए Toncoin अर्जित करेंगे।",
+        "context": " -> stake_page_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "contest_page_title",
+        "source_string": "TON Smart Challenge",
+        "translation": "TON स्मार्ट चैलेंज #3",
+        "context": " -> contest_page_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "contest_page_description",
+        "source_string": "Contest for FunC developers with 22,022 TON total prize fund",
+        "translation": "$30,000 की कुल प्राइज फंड के साथ FunC डेवलपर्स के लिए एक दिवसीय कांटेस्ट",
+        "context": " -> contest_page_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "contest_page_title_2",
+        "source_string": "TON Smart Challenge #2",
+        "translation": "TON स्मार्ट चैलेंज #2",
+        "context": " -> contest_page_title_2",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "contest_page_title_3",
+        "source_string": "TON Design Challenge",
+        "translation": "TON डिज़ाइन चैलेंज",
+        "context": " -> contest_page_title_3",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "contest_page_description_2",
+        "source_string": "The TON Smart Challenge is a contest for FunC developers with a total prize fund over 16,000 TON. \nThe contest starts on August 4 at 12:00 UTC.",
+        "translation": "स्मार्ट-कॉन्ट्रैक्ट डेवलपर्स के लिए कुल 30,000 TON फंड के इनाम वाला एक कांटेस्ट 23 अक्टूबर को 9:00 UTC पर शुरू होता है और 18:00 UTC तक चलता है।",
+        "context": " -> contest_page_description_2",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "contest_page_description_3",
+        "source_string": "The contest for illustrators and designers will last unit 30 Sept. 18:00 UTC. Up to $40,000 will be distributed among the best contributors.",
+        "translation": "चित्रकारों और डिजाइनरों के लिए प्रतियोगिता 30 सितंबर 18:00 UTC तक चलेगी। सर्वोत्तम योगदानकर्ताओं के बीच $40,000 तक का वितरण किया जाएगा।",
+        "context": " -> contest_page_description_3",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "analysis_page_title",
+        "source_string": "Blockchain analysis",
+        "translation": "ब्लॉकचेन विश्लेषण",
+        "context": " -> analysis_page_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "analysis_page_description",
+        "source_string": "A blockchain analysis of TON, Ethereum, and Solana",
+        "translation": "TON, इथीरियम 2.0 और सोलाना का ब्लॉकचेन विश्लेषण",
+        "context": " -> analysis_page_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "brand_assets_title",
+        "source_string": "Brand assets",
+        "translation": "ब्रांड की संपत्ति",
+        "context": " -> brand_assets_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "brand_assets_description",
+        "source_string": "The marketing of TON in any form of digital or printed communications requires compliance with the following guidelines.",
+        "translation": "डिजिटल या मुद्रित संचार के किसी भी रूप में TON के मार्केटिंग के लिए निम्नलिखित दिशानिर्देशों का अनुपालन आवश्यक है।",
+        "context": " -> brand_assets_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "grants_page_title",
+        "source_string": "Grants",
+        "translation": "ग्रांट्स",
+        "context": " -> grants_page_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "grants_page_description",
+        "source_string": "The TON Foundation invites talent to imagine and realize\nprojects that have the potential.",
+        "translation": "TON फाउंडेशन टैलेंट को उन प्रोजेक्ट की कल्पना करने और महसूस करने के लिए इन्वाइट करता है जिनमें क्षमता है",
+        "context": " -> grants_page_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "sponsorships_page_title",
+        "source_string": "Sponsorships",
+        "translation": "स्पान्सर्शिप",
+        "context": " -> sponsorships_page_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "sponsorships_page_description",
+        "source_string": "The TON Foundation invites talent to imagine and realize projects that have the potential to integrate with the daily lives of users.",
+        "translation": "TON फाउंडेशन टैलेंट को उन प्रोजेक्ट की कल्पना करने और महसूस करने के लिए इन्वाइट करता है जिनमें यूजर के डेली जीवन के साथ इन्टग्रेट करने की क्षमता है।",
+        "context": " -> sponsorships_page_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "buy_toncoin_title",
+        "source_string": "Get or sell Toncoin",
+        "translation": "Toncoin प्राप्त करें या बेचें",
+        "context": " -> buy_toncoin_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "buy_toncoin_description",
+        "source_string": "You can get Toncoin with bank cards, or exchange it with other crypto. Choose the option most convenient for you.",
+        "translation": "आप Toncoin को बैंक कार्ड से प्राप्त कर सकते हैं, या इसे अन्य क्रिप्टो के साथ एक्सचेंज कर सकते हैं। वह विकल्प चुनें जो आपके लिए सबसे सुविधाजनक हो।",
+        "context": " -> buy_toncoin_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "ton-smart-challenge-2_title",
+        "source_string": "TON Smart Challenge 2",
+        "translation": "TON स्मार्ट चैलेंज #3",
+        "context": " -> ton-smart-challenge-2_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "ton-smart-challenge-2_description",
+        "source_string": "Contest for FunC developers with 22,022 TON total prize fund.",
+        "translation": "$30,000 की कुल प्राइज फंड के साथ FunC डेवलपर्स के लिए एक दिवसीय कांटेस्ट",
+        "context": " -> ton-smart-challenge-2_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "events_title",
+        "source_string": "TON Events",
+        "translation": "TON के कार्यक्रम ",
+        "context": " -> events_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "events_description",
+        "source_string": "Stay updated with the TON Events calendar: live and upcoming crypto events, blockchain conferences, meet-ups, hackathons and other promotions.",
+        "translation": "TON इवेंट कैलेंडर के साथ अपडेट रहें: लाइव और आगामी क्रिप्टो इवेंट, ब्लॉकचेन कॉन्फ्रेंस, मीट-अप, हैकथॉन और अन्य प्रमोशन।",
+        "context": " -> events_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "local_communities_title",
+        "source_string": "TON near you",
+        "translation": "TON आप के पास",
+        "context": " -> local_communities_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "local_communities_description",
+        "source_string": "Find a community near you to meet new people and participate in local events.",
+        "translation": "नए लोगों से मिलने और स्थानीय कार्यक्रमों में भाग लेने के लिए अपने पास एक समुदाय खोजें।",
+        "context": " -> local_communities_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "wallets_title",
+        "source_string": "Get a wallet",
+        "translation": "एक वॉलेट प्राप्त करें",
+        "context": " -> wallets_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "wallets_description",
+        "source_string": "To start using TON, you need to have a wallet. It's an app that will hold your Toncoins and help you to interact with other apps inside the network.",
+        "translation": "TON का उपयोग शुरू करने के लिए, आपके पास एक वॉलेट होना चाहिए। यह एक ऐसा ऐप है जो आपके Toncoins को होल्ड करेगा और आपको नेटवर्क के अंदर अन्य ऐप्स के साथ इंटरैक्ट करने में मदद करेगा।",
+        "context": " -> wallets_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "hack-a-ton-1_title",
+        "source_string": "Hack-a-TON 1",
+        "translation": "Hack-a-TON #1",
+        "context": " -> hack-a-ton-1_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "hack-a-ton-1_description",
+        "source_string": "Contest for JavaScript developers.",
+        "translation": "JavaScript डेवलपर्स के लिए प्रतियोगिता।",
+        "context": " -> hack-a-ton-1_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "ton-news_title",
+        "source_string": "TON News",
+        "translation": "TON News",
+        "context": " -> ton-news_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "ton-news_description",
+        "source_string": "Find out the latest updates of The Open Network blockchain.",
+        "translation": "ओपन नेटवर्क ब्लॉकचेन के नवीनतम अपडेट का पता लगाएं।",
+        "context": " -> ton-news_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "contest_page_title_testing",
+        "source_string": "TON Test Challenge",
+        "translation": "TON टेस्ट चैलेंज",
+        "context": " -> contest_page_title_testing",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "contest_page_description_testing",
+        "source_string": "The contest for testers will last unit Sept. 25 18:00 UTC. $50,000 will be distributed among the best participants, and the winners may get\na job offer at the TON Foundation.",
+        "translation": "परीक्षकों के लिए प्रतियोगिता 25 सितंबर 18:00 UTC तक चलेगी। सर्वश्रेष्ठ प्रतिभागियों के बीच $50,000 वितरित किए जाएंगे, और विजेताओं को TON फाउंडेशन में नौकरी की पेशकश मिल सकती है।",
+        "context": " -> contest_page_description_testing",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "dev_page_title",
+        "source_string": "Start building on The Open Network",
+        "translation": "ओपन नेटवर्क पर बनाना शुरू करें",
+        "context": " -> dev_page_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "dev_page_description",
+        "source_string": "Learn how the blockchain and services TON work, as well as how to develop decentralized app and create smart contracts",
+        "translation": "सीखे कि ब्लॉकचेन और सर्विसेज TON कैसे काम करती हैं, साथ ही डिसेन्ट्रलाइज़ ऐप कैसे बनाएं और स्मार्ट कान्ट्रैक्ट कैसे बनाएं",
+        "context": " -> dev_page_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "hack_a_ton_program_page_title",
+        "source_string": "Hack-a-TONх program",
+        "translation": "Hack-a-TONх प्रोग्राम",
+        "context": " -> hack_a_ton_program_page_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "hack_a_ton_program_page_description",
+        "source_string": "Organize a hackathon with the TON Foundation team for your community.",
+        "translation": "TON फाउंडेशन टीम के साथ अपनी कम्युनिटी के लिए हैकथॉन को ऑर्गनाइज़ करें",
+        "context": " -> hack_a_ton_program_page_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "contest_page_title_func",
+        "source_string": "TON Smart Challenge #3",
+        "translation": "TON स्मार्ट चैलेंज #3",
+        "context": " -> contest_page_title_func",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "contest_page_description_func",
+        "source_string": "Contest for FunC developers with 50,000 TON total prize fund. The contest begins on 2 Dec. 12:00 UTC and lasts until 23 Dec. 18:00 UTC.",
+        "translation": "स्मार्ट-कॉन्ट्रैक्ट डेवलपर्स के लिए कुल 30,000 TON फंड के इनाम वाला एक कांटेस्ट 23 अक्टूबर को 9:00 UTC पर शुरू होता है और 18:00 UTC तक चलता है।",
+        "context": " -> contest_page_description_func",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "contact_us_title",
+        "source_string": "Contact us",
+        "translation": "हमसे संपर्क करें",
+        "context": " -> contact_us_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "for_org_page_title",
+        "source_string": "For Organizers",
+        "translation": "आयोजकों के लिए",
+        "context": " -> for_org_page_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "for_org_page_description",
+        "source_string": "We invite talented and experienced teams to organize events for local communities and blockchain enthusiasts.",
+        "translation": "हम टैलेंटेड और अनुभवी टीमों को लोकल कम्युनिटी और ब्लॉकचेन समर्थक लोगों के लिए कार्यक्रम ऑर्गनाइज़ करने के लिए इन्वाइट करते हैं।",
+        "context": " -> for_org_page_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "thread_challenge_page_title",
+        "source_string": "TON Thread Challenge",
+        "translation": "TON थ्रेड चैलेंज",
+        "context": " -> thread_challenge_page_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "thread_challenge_page_description",
+        "source_string": "Contest for developers, community managers, content creators and founders — those who work, and build on TON with $10,000 total prize.",
+        "translation": "डेवलपर्स, सामुदायिक प्रबंधकों, सामग्री निर्माताओं और संस्थापकों के लिए प्रतियोगिता - जो TON पर काम करते हैं, और निर्माण करते हैं, कुल $10,000 का पुरस्कार।",
+        "context": " -> thread_challenge_page_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "ton_web_challenge_title",
+        "source_string": "TON TWA Challenge",
+        "translation": "TON TWA चैलेंज",
+        "context": " -> ton_web_challenge_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "ton_web_challenge_description",
+        "source_string": "Contest for Telegram Web Apps developers with $60,000 total prize fund.",
+        "translation": "$60,000 कुल पुरस्कार राशि के साथ टेलीग्राम वेब ऐप्स डेवलपर्स के लिए प्रतियोगिता।",
+        "context": " -> ton_web_challenge_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "defi_liquidity_title",
+        "source_string": "DeFi Liquidity Incentive Program",
+        "translation": "DeFi लिक्विडिटी प्रोत्साहन कार्यक्रम",
+        "context": " -> defi_liquidity_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "defi_liquidity_description",
+        "source_string": "A new and fairer liquidity program designed to bootstrap the DeFi ecosystem on The Open Network.",
+        "translation": "ओपन नेटवर्क पर DeFi इकोसिस्टम को बूटस्ट्रैप करने के लिए डिज़ाइन किया गया एक नया और निष्पक्ष लिक्विडिटी कार्यक्रम।",
+        "context": " -> defi_liquidity_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "ton_wallet_challenge_title",
+        "source_string": "TON Wallet Challenge",
+        "translation": "TON Wallet चैलेंज",
+        "context": " -> ton_wallet_challenge_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "ton_wallet_challenge_description",
+        "source_string": "The contest with a prize pool of $60,000 for Android, iOS, and desktop developers will last until 22 May 18:00 UTC.",
+        "translation": "The contest with a prize pool of $90,000 for Android, iOS, and desktop developers will last until 15 May 18:00 UTC.",
+        "context": " -> ton_wallet_challenge_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "ambassadors_title",
+        "source_string": "Become a TON Ambassador",
+        "translation": "एक TON एम्बेसडर बनें",
+        "context": " -> ambassadors_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "ambassadors_description",
+        "source_string": "Fast-track for crypto enthusiasts and Web3 wizards looking to grow the TON community.",
+        "translation": "TON समुदाय को विकसित करने के इच्छुक क्रिप्टो उत्साही और Web3 जादूगरों के लिए फास्ट-ट्रैक।",
+        "context": " -> ambassadors_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "contribute_title",
+        "source_string": "Collaborate with TON",
+        "translation": "TON के साथ सहयोग करें",
+        "context": " -> contribute_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "contribute_description",
+        "source_string": "Organise breakfasts, hubs, informal meetings with like-minded people and share ideas.",
+        "translation": "समान विचारधारा वाले लोगों के साथ नाश्ता, हब, अनौपचारिक बैठकें आयोजित करें और विचार साझा करें।",
+        "context": " -> contribute_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "grow_title",
+        "source_string": "Accelerate you growth",
+        "translation": "Accelerate you growth",
+        "context": " -> grow_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "grow_description",
+        "source_string": "We're growing innovations and new use cases. Get support for your project on all the stages.",
+        "translation": "We're growing innovations and new use cases. Get support for your project on all the stages.",
+        "context": " -> grow_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_banner_title",
+        "source_string": "The Open Network",
+        "translation": "ओपन नेटवर्क",
+        "context": " -> index@main_banner_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_banner_title_mobile_0",
+        "source_string": "The Open",
+        "translation": "ओपन",
+        "context": " -> index@main_banner_title_mobile_0",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_banner_title_mobile_1",
+        "source_string": "Network",
+        "translation": "नेटवर्क",
+        "context": " -> index@main_banner_title_mobile_1",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_banner_title_variant_0",
+        "source_string": "for",
+        "translation": "के लिए",
+        "context": " -> index@main_banner_title_variant_0",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_banner_title_variant_1",
+        "source_string": "everyone",
+        "translation": "सभी के लिए",
+        "context": " -> index@main_banner_title_variant_1",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_banner_title_variant_2",
+        "source_string": "startups",
+        "translation": "स्टार्टअप के लिए",
+        "context": " -> index@main_banner_title_variant_2",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_banner_title_variant_3",
+        "source_string": "creators",
+        "translation": "रचनाकारों के लिए",
+        "context": " -> index@main_banner_title_variant_3",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_banner_title_variant_4",
+        "source_string": "gamers",
+        "translation": "गेमर्स के लिए",
+        "context": " -> index@main_banner_title_variant_4",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_banner_description",
+        "source_string": "A decentralized and open internet, created by the community using a technology designed by Telegram.",
+        "translation": "टेलीग्राम द्वारा डिज़ाइन की गई तकनीक का उपयोग करके समुदाय द्वारा बनाया गया विकेंद्रीकृत और खुला इंटरनेट।",
+        "context": " -> index@main_banner_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_banner_button_join_community",
+        "source_string": "Join community",
+        "translation": "समुदाय में शामिल हों",
+        "context": " -> index@main_banner_button_join_community",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_banner_button_build_on_ton",
+        "source_string": "Build on TON",
+        "translation": "TON पर निर्माण करें",
+        "context": " -> index@main_banner_button_build_on_ton",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_wallets_title",
+        "source_string": "Get your wallet to join TON",
+        "translation": "TON में शामिल होने के लिए अपना वॉलेट प्राप्त करें",
+        "context": " -> index@main_wallets_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_wallets_mobile_title",
+        "source_string": "Get your wallet\nto join TON",
+        "translation": "TON में शामिल होने के लिए अपना वॉलेट प्राप्त करें",
+        "context": " -> index@main_wallets_mobile_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_wallets_all_button",
+        "source_string": "Explore all wallets",
+        "translation": "सभी वॉलेट एक्सप्लोर करें",
+        "context": " -> index@main_wallets_all_button",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_wallets_card_title_0",
+        "source_string": "TON Ecosystem everywhere you go",
+        "translation": "TON इकोसिस्टम जहाँ भी आप जाएं",
+        "context": " -> index@main_wallets_card_title_0",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_wallets_card_description_0",
+        "source_string": "Secure your crypto, NFTs, and easily access TON apps using Tonkeeper.",
+        "translation": "अपने क्रिप्टो, NFT को सुरक्षित करें, और Tonkeeper का उपयोग करके आसानी से TON ऐप्स तक पहुंचें।",
+        "context": " -> index@main_wallets_card_description_0",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_wallets_card_title_1",
+        "source_string": "Instantly transfer crypto in Telegram",
+        "translation": "टेलीग्राम में तुरंत पैसा ट्रांसफर करें",
+        "context": " -> index@main_wallets_card_title_1",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_wallets_card_description_1",
+        "source_string": "Send and receive crypto from any Telegram user in just a few taps with @wallet.",
+        "translation": "@wallet के साथ कुछ ही क्लिक में किसी भी टेलीग्राम उपयोगकर्ता से पैसे भेजें और प्राप्त करें।",
+        "context": " -> index@main_wallets_card_description_1",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_toncoin_info_title_0",
+        "source_string": "Cryptocurrency",
+        "translation": "क्रिप्टो करेंसी",
+        "context": " -> index@main_toncoin_info_title_0",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_toncoin_info_title_1",
+        "source_string": "is the heart of TON",
+        "translation": "TON का दिल है",
+        "context": " -> index@main_toncoin_info_title_1",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_toncoin_info_description",
+        "source_string": "Toncoin is TON's native cryptocurrency. It is used for network operations, transactions, games or collectibles built on TON.",
+        "translation": "Toncoin TON की स्थानीय क्रिप्टोकरेंसी है। इसका उपयोग TON पर निर्मित नेटवर्क संचालन, लेनदेन, गेम या संग्रहणीय वस्तुओं के लिए किया जाता है।",
+        "context": " -> index@main_toncoin_info_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_toncoin_info_button",
+        "source_string": "Get Toncoin",
+        "translation": "Toncoin प्राप्त करें",
+        "context": " -> index@main_toncoin_info_button",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_toncoin_widget_coin",
+        "source_string": "Toncoin (TON)",
+        "translation": "Toncoin (TON)",
+        "context": " -> index@main_toncoin_widget_coin",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_toncoin_widget_24h",
+        "source_string": "last 24h",
+        "translation": "पिछले 24 घंटे",
+        "context": " -> index@main_toncoin_widget_24h",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_toncoin_widget_rank",
+        "source_string": "Rank",
+        "translation": "पद",
+        "context": " -> index@main_toncoin_widget_rank",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_toncoin_widget_market_cap",
+        "source_string": "Market Cap",
+        "translation": "बाजार पूंजीकरण",
+        "context": " -> index@main_toncoin_widget_market_cap",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_toncoin_widget_volume",
+        "source_string": "Volume",
+        "translation": "वॉल्यूम",
+        "context": " -> index@main_toncoin_widget_volume",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_toncoin_widget_bottom_text_0",
+        "source_string": "Powered by",
+        "translation": "द्वारा संचालित",
+        "context": " -> index@main_toncoin_widget_bottom_text_0",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_toncoin_widget_bottom_text_1",
+        "source_string": "CoinMarketCap",
+        "translation": "CoinMarketCap",
+        "context": " -> index@main_toncoin_widget_bottom_text_1",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@_title",
+        "source_string": "Unlocking freedom with Decentralized Finance",
+        "translation": "विकेंद्रीकृत वित्त के साथ स्वतंत्रता को अनलॉक करना",
+        "context": " -> index@_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@title_0",
+        "source_string": "Nominator pools",
+        "translation": "नॉमिनेटर पूल",
+        "context": " -> index@title_0",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@description_0",
+        "source_string": "Use Toncoin for contribution to network security.",
+        "translation": "नेटवर्क सुरक्षा में योगदान के लिए Toncoin का उपयोग करें।",
+        "context": " -> index@description_0",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@linktext_0",
+        "source_string": "Explore options",
+        "translation": "विकल्पों को एक्स्प्लोर करे",
+        "context": " -> index@linktext_0",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@title_1",
+        "source_string": "Buy and trade",
+        "translation": "खरीदें और व्यापार करें",
+        "context": " -> index@title_1",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@description_1",
+        "source_string": "Swap currencies on decentralized exchanges.",
+        "translation": "विकेंद्रीकृत एक्सचेंजों पर मुद्रा स्वैप करें",
+        "context": " -> index@description_1",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@linktext_1",
+        "source_string": "Swap currencies",
+        "translation": "मुद्राओं को स्वैप करें",
+        "context": " -> index@linktext_1",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@title_2",
+        "source_string": "Cross-chain transfers",
+        "translation": "क्रॉस-चेन ट्रांसफर",
+        "context": " -> index@title_2",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@description_2",
+        "source_string": "Transfer your tokens from Ethereum to TON.",
+        "translation": "अपने टोकन को एथेरियम से TON में स्थानांतरित करें",
+        "context": " -> index@description_2",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@linktext_2",
+        "source_string": "Go to bridge",
+        "translation": "पुल पर जाएं",
+        "context": " -> index@linktext_2",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_apps_title",
+        "source_string": "Explore apps and\nservices",
+        "translation": "ऐप्स और सेवाओं को एक्स्प्लोर करे",
+        "context": " -> index@main_apps_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_apps_all_button",
+        "source_string": "Explore all ecosystem",
+        "translation": "सभी इकोसिस्टम को एक्स्प्लोर करे",
+        "context": " -> index@main_apps_all_button",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_apps_card_title_0",
+        "source_string": "Anonymous eSIM",
+        "translation": "गुमनाम eSIM",
+        "context": " -> index@main_apps_card_title_0",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_apps_card_description_0",
+        "source_string": "Affordable and secure mobile internet provider for home and travel.",
+        "translation": "घर और यात्रा के लिए किफायती और सुरक्षित मोबाइल इंटरनेट प्रदाता।",
+        "context": " -> index@main_apps_card_description_0",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_apps_card_title_1",
+        "source_string": "Easy-to-remember address",
+        "translation": "याद रखने में आसान पता",
+        "context": " -> index@main_apps_card_title_1",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_apps_card_description_1",
+        "source_string": "Your wallet or website can be easily found in the TON network.",
+        "translation": "आपका वॉलेट या वेबसाइट TON नेटवर्क में आसानी से पाई जा सकती है।",
+        "context": " -> index@main_apps_card_description_1",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_apps_card_title_2",
+        "source_string": "Affordable VPN",
+        "translation": "किफायती VPN",
+        "context": " -> index@main_apps_card_title_2",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_apps_card_description_2",
+        "source_string": "A fast, secure, and affordable way to protect your internet freedom.",
+        "translation": "अपनी इंटरनेट स्वतंत्रता की रक्षा करने का तेज़, सुरक्षित और सस्ता तरीका।",
+        "context": " -> index@main_apps_card_description_2",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_apps_card_3_title",
+        "source_string": "Buy Telegram Premium",
+        "translation": "टेलीग्राम प्रीमियम खरीदें",
+        "context": " -> index@main_apps_card_3_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_apps_card_3_description",
+        "source_string": "Use your crypto wallet to pay for subscriptions for yourself and friends.",
+        "translation": "अपने और दोस्तों के लिए सब्सक्रिप्शन का भुगतान करने के लिए अपने क्रिप्टो वॉलेट का उपयोग करें।",
+        "context": " -> index@main_apps_card_3_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_apps_card_4_title",
+        "source_string": "Unique collectibles",
+        "translation": "अद्वितीय संग्रहणीय",
+        "context": " -> index@main_apps_card_4_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_apps_card_4_description",
+        "source_string": "Explore, buy, and sell collectibles used in games and services.",
+        "translation": "खेलों और सेवाओं में उपयोग की जाने वाली संग्रहणीय वस्तुओं को एक्सप्लोर करें, खरीदें और बेचें।",
+        "context": " -> index@main_apps_card_4_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_apps_card_5_title",
+        "source_string": "Explore hundreds more apps and services",
+        "translation": "सैकड़ों और ऐप्स और सेवाओं को एक्स्प्लोर करे",
+        "context": " -> index@main_apps_card_5_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_apps_card_5_button",
+        "source_string": "Explore all",
+        "translation": "सभी को एक्स्प्लोर करे",
+        "context": " -> index@main_apps_card_5_button",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_blockchain_cards_title_1",
+        "source_string": "The network is based on",
+        "translation": "नेटवर्क आधारित है",
+        "context": " -> index@main_blockchain_cards_title_1",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_blockchain_cards_title_2",
+        "source_string": "a mass adoption blockchain",
+        "translation": "एक बड़े पैमाने पर अपनाने वाला ब्लॉकचेन",
+        "context": " -> index@main_blockchain_cards_title_2",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_blockchain_cards_button_1",
+        "source_string": "Start building",
+        "translation": "निर्माण शुरू करें",
+        "context": " -> index@main_blockchain_cards_button_1",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_blockchain_cards_button_2",
+        "source_string": "Roadmap",
+        "translation": "रोडमैप",
+        "context": " -> index@main_blockchain_cards_button_2",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_blockchain_card_title_0",
+        "source_string": "Layer-1 blockchain",
+        "translation": "लेयर-1 ब्लॉकचेन",
+        "context": " -> index@main_blockchain_card_title_0",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_blockchain_card_description_0",
+        "source_string": "Ultra-scalable, designed by Telegram to onboard billions of users.",
+        "translation": "अल्ट्रा-स्केलेबल, टेलीग्राम द्वारा अरबों उपयोगकर्ताओं को ऑनबोर्ड करने के लिए डिज़ाइन किया गया।",
+        "context": " -> index@main_blockchain_card_description_0",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_blockchain_card_title_1",
+        "source_string": "Decentralized",
+        "translation": "विकेन्द्रीकृत",
+        "context": " -> index@main_blockchain_card_title_1",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_blockchain_card_description_1",
+        "source_string": "TON is a Proof-of-Stake network maintained by independent validators.",
+        "translation": "TON एक प्रूफ-ऑफ़-स्टेक नेटवर्क है जिसका रखरखाव स्वतंत्र सत्यापनकर्ताओं द्वारा किया जाता है।",
+        "context": " -> index@main_blockchain_card_description_1",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_blockchain_card_title_2",
+        "source_string": "Tiny fees",
+        "translation": "मामूली शुल्क",
+        "context": " -> index@main_blockchain_card_title_2",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_blockchain_card_description_2",
+        "source_string": "The average transaction cost is just a few cents.",
+        "translation": "औसत लेनदेन लागत केवल कुछ सेंट है।",
+        "context": " -> index@main_blockchain_card_description_2",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_blockchain_card_3_title",
+        "source_string": "Secure",
+        "translation": "सुरक्षित",
+        "context": " -> index@main_blockchain_card_3_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_blockchain_card_3_description",
+        "source_string": "TON is audited by global security firms including [CertiK](https:\/\/www.certik.com\/projects\/the-open-network), [Chainsulting](https:\/\/github.com\/chainsulting\/Smart-Contract-Security-Audits\/tree\/master\/TON) and [SlowMist](https:\/\/github.com\/slowmist\/Knowledge-Base\/raw\/master\/open-report-V2\/blockchain\/SlowMist%20Audit%20Report%20-%20TON_en-us.pdf).",
+        "translation": "TON का ऑडिट [CertiK](https:\/\/www.certik.com\/projects\/the-open-network), [Chainsulting](https:\/\/github.com\/chainsulting\/Smart-Contract-Security-Audits\/tree\/master\/TON) और [SlowMist](https:\/\/github.com\/slowmist\/Knowledge-Base\/raw\/master\/open-report-V2\/blockchain\/SlowMist%20Audit%20Report%20-%20TON_en-us.pdf) सहित वैश्विक सुरक्षा फर्मों द्वारा किया जाता है।",
+        "context": " -> index@main_blockchain_card_3_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_blockchain_card_4_title",
+        "source_string": "World-class speed",
+        "translation": "विश्व स्तरीय गति",
+        "context": " -> index@main_blockchain_card_4_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@main_blockchain_card_4_description",
+        "source_string": "Transactions are confirmed in a matter of seconds.",
+        "translation": "लेनदेन की पुष्टि सेकंडो में की जाती है",
+        "context": " -> index@main_blockchain_card_4_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@community_title",
+        "source_string": "Be part of TON movement",
+        "translation": "Be the part of TON community",
+        "context": " -> index@community_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@join_community_title",
+        "source_string": "Join TON Community",
+        "translation": "TON समुदाय से जुड़ें",
+        "context": " -> index@join_community_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@join_community_subtitle",
+        "source_string": "Ask questions, share ideas and participate in breakfasts, hubs, local events with people who love TON.",
+        "translation": "TON को पसंद करने वाले लोगों के साथ प्रश्न पूछें, विचार साझा करें और नाश्ते, हब, स्थानीय कार्यक्रमों में भाग लें।",
+        "context": " -> index@join_community_subtitle",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@join_community_explore",
+        "source_string": "Explore all",
+        "translation": "सभी को एक्स्प्लोर करे",
+        "context": " -> index@join_community_explore",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@community_card_title_0",
+        "source_string": "Collaborate with TON",
+        "translation": "TON के साथ सहयोग करें",
+        "context": " -> index@community_card_title_0",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@community_card_0_subtitle",
+        "source_string": "Organise breakfasts, hubs, informal meetings with like-minded people and share ideas.",
+        "translation": "समान विचारधारा वाले लोगों के साथ नाश्ता, हब, अनौपचारिक बैठकें आयोजित करें और विचार साझा करें।",
+        "context": " -> index@community_card_0_subtitle",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@community_card_0_button",
+        "source_string": "Collaborate with TON",
+        "translation": "TON के साथ सहयोग करें",
+        "context": " -> index@community_card_0_button",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@community_card_title_1",
+        "source_string": "Become an ambassador",
+        "translation": "एक एम्बेसडर बनें",
+        "context": " -> index@community_card_title_1",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@community_card_1_subtitle",
+        "source_string": "Fast-track for crypto enthusiasts and Web3 wizards looking to grow the TON community.",
+        "translation": "TON समुदाय को विकसित करने के इच्छुक क्रिप्टो उत्साही और Web3 जादूगरों के लिए फास्ट-ट्रैक।",
+        "context": " -> index@community_card_1_subtitle",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@community_card_1_button",
+        "source_string": "Turn into TON Ambassador",
+        "translation": "TON एम्बेसडर में बदलें",
+        "context": " -> index@community_card_1_button",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@channel_title",
+        "source_string": "Telegram channel",
+        "translation": "टेलीग्राम चैनल",
+        "context": " -> index@channel_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@english_channel",
+        "source_string": "English channel",
+        "translation": "English channel",
+        "context": " -> index@english_channel",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "index@total_members",
+        "source_string": "Total community members",
+        "translation": "समुदाय के कुल सदस्य",
+        "context": " -> index@total_members",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "about_title",
+        "source_string": "What is TON Ambassadors?",
+        "translation": "What is TON Ambassadors?",
+        "context": " -> about_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "about_description",
+        "source_string": "Are you passionate about the world of crypto and looking to take your journey to the next level? The Open Network is excited to introduce TON Ambassadors, designed for crypto enthusiasts.",
+        "translation": "Are you passionate about the world of crypto and looking to take your journey to the next level? The Open Network is excited to introduce TON Ambassadors, designed for crypto enthusiasts.",
+        "context": " -> about_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "about_note",
+        "source_string": "The TON Ambassadors Program is open to all individuals passionate about crypto, regardless of their skill level. It unlocks exclusive access, opportunities, and benefits within the TON ecosystem.",
+        "translation": "The TON Ambassadors Program is open to all individuals passionate about crypto, regardless of their skill level. It unlocks exclusive access, opportunities, and benefits within the TON ecosystem.",
+        "context": " -> about_note",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "use_cases_access",
+        "source_string": "__Early access__ to development and ties to the founders.",
+        "translation": "__Early access__ to development and ties to the founders.",
+        "context": " -> use_cases_access",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "use_cases_meetups",
+        "source_string": "Exclusive __monthly meetups__ with core members.",
+        "translation": "Exclusive __monthly meetups__ with core members.",
+        "context": " -> use_cases_meetups",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "use_cases_partnership",
+        "source_string": "Direct access to __partnership and AMA__ opportunities.",
+        "translation": "Direct access to __partnership and AMA__ opportunities.",
+        "context": " -> use_cases_partnership",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "use_cases_job",
+        "source_string": "Potential __internships, jobs, and progression__ within TON.",
+        "translation": "Potential __internships, jobs, and progression__ within TON.",
+        "context": " -> use_cases_job",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "use_cases_merch",
+        "source_string": "Limited edition __TON merch__.",
+        "translation": "Limited edition __TON merch__.",
+        "context": " -> use_cases_merch",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "use_cases_coaching",
+        "source_string": "__Сoaching__ to enhance your crypto professional skills.",
+        "translation": "__Сoaching__ to enhance your crypto professional skills.",
+        "context": " -> use_cases_coaching",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "use_cases_ton_title",
+        "source_string": "__TON Ambassadors title__, recognition member of TON.",
+        "translation": "__TON Ambassadors title__, recognition member of TON.",
+        "context": " -> use_cases_ton_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "use_cases_volunteer",
+        "source_string": "Opportunities to become a __paid volunteer__.",
+        "translation": "Opportunities to become a __paid volunteer__.",
+        "context": " -> use_cases_volunteer",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "use_cases_benefit",
+        "source_string": "Over time, additional benefits may appear.",
+        "translation": "Over time, additional benefits may appear.",
+        "context": " -> use_cases_benefit",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "use_cases_title",
+        "source_string": "Get access to unique opportunities",
+        "translation": "Get access to unique opportunities",
+        "context": " -> use_cases_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "goals_title",
+        "source_string": "Our goals",
+        "translation": "Our goals",
+        "context": " -> goals_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "goals_description",
+        "source_string": "The above benefits provide a glimpse into the vast potential that lies ahead for those who join TON Ambassadors. Through ongoing assessment, guidance and coaching from multiple stakeholders in the TON ecosystem, we strive to develop well-rounded crypto professionals with diverse skills and the ability to excel in various roles.",
+        "translation": "The above benefits provide a glimpse into the vast potential that lies ahead for those who join TON Ambassadors. Through ongoing assessment, guidance and coaching from multiple stakeholders in the TON ecosystem, we strive to develop well-rounded crypto professionals with diverse skills and the ability to excel in various roles.",
+        "context": " -> goals_description",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "goals_note",
+        "source_string": "You will have the opportunity to thrive within the TON ecosystem and ultimately emerge as an improved version of yourself. Of course, we hope you'll choose to stay with us on this journey.",
+        "translation": "You will have the opportunity to thrive within the TON ecosystem and ultimately emerge as an improved version of yourself. Of course, we hope you'll choose to stay with us on this journey.",
+        "context": " -> goals_note",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "join_movement_title",
+        "source_string": "Join the movement",
+        "translation": "Join the movement",
+        "context": " -> join_movement_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "join_movement_subtitle",
+        "source_string": "Apply now to be a part of the TON community and take your crypto career to new heights. We review all applications, successful candidates will be notified.",
+        "translation": "Apply now to be a part of the TON community and take your crypto career to new heights. We review all applications, successful candidates will be notified.",
+        "context": " -> join_movement_subtitle",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "join_now",
+        "source_string": "Join now",
+        "translation": "Join now",
+        "context": " -> join_now",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "become_title",
+        "source_string": "Become a",
+        "translation": "Become a",
+        "context": " -> become_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "ambassador_title",
+        "source_string": "TON Ambassador",
+        "translation": "TON Ambassador",
+        "context": " -> ambassador_title",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "ambassador_subtitle",
+        "source_string": "Fast-track for crypto enthusiasts and Web3 wizards looking to grow the TON community.",
+        "translation": "Fast-track for crypto enthusiasts and Web3 wizards looking to grow the TON community.",
+        "context": " -> ambassador_subtitle",
+        "labels": null,
+        "max_length": null
+    }
+]
