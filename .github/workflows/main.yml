@@ -17,6 +17,13 @@ jobs:
         with:
           node-version: 18
 
+      - name: Cache Test
+        id: cache-test
+        uses: actions/cache@v3
+        with:
+          path: test
+          key: ${{ runner.os }}-test
+
       - name: Install dependencies
         run: npm ci
 
