@@ -1,5 +1,10 @@
 name: Telegram Notify
-on: [push, workflow_dispatch]
+
+on:
+  pull_request:
+    types: [opened]
+    branches: [staging]
+
 jobs:
   notify:
     name: Notify
@@ -11,14 +16,11 @@ jobs:
           to: ${{ secrets.TELEGRAM_TO }}
           token: ${{ secrets.TELEGRAM_TOKEN }}
           debug: true
-          format: markdown
+          format: html
           message: |
-            ## New Commit
-            ${{ github.actor }} created commit:
-            Commit message: ${{ github.event.commits[0].message }}
+            <h3>New Commit</h3>
+            ${{ github.actor }} created a new PR in ${{ github.repository }}:
+            PR title: ${{ github.event.pull_request.title }}
 
-            ## Repo
-            Repository: ${{ github.repository }}
-
-            ### Commit Info
-            See changes: https://github.com/${{ github.repository }}/commit/${{github.sha}}
+            <h4>Commit Info</h4>
+            See changes: https://github.com/${{ github.repository }}/pull/${{ github.event.number }}
