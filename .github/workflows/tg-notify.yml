@@ -1,8 +1,8 @@
 name: Telegram Notify
 on: [push]
 jobs:
-  build:
-    name: Build
+  notify:
+    name: Notify
     runs-on: ubuntu-latest
     steps:
       - name: Send telegram message on push
@@ -10,12 +10,15 @@ jobs:
         with:
           to: ${{ secrets.TELEGRAM_TO }}
           token: ${{ secrets.TELEGRAM_TOKEN }}
+          debug: true
+          format: markdown
           message: |
+            ## New Commit
             ${{ github.actor }} created commit:
             Commit message: ${{ github.event.commits[0].message }}
 
+            ## Repo
             Repository: ${{ github.repository }}
 
+            ### Commit Info
             See changes: https://github.com/${{ github.repository }}/commit/${{github.sha}}
-          format: format
-          debug: true
