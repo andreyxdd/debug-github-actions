@@ -1,5 +1,5 @@
 name: Telegram Notify
-on: [push]
+on: [push, workflow_dispatch]
 jobs:
   notify:
     name: Notify
