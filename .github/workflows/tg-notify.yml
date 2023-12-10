@@ -18,9 +18,9 @@ jobs:
           debug: true
           format: html
           message: |
-            <h3>New Commit</h3>
+            <b>New Commit</b>
             ${{ github.actor }} created a new PR in ${{ github.repository }}:
             PR title: ${{ github.event.pull_request.title }}
 
-            <h4>Commit Info</h4>
+            <b>Commit Info</b>
             See changes: https://github.com/${{ github.repository }}/pull/${{ github.event.number }}
