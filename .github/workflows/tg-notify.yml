@@ -22,9 +22,9 @@ jobs:
 
             <b>New Pull Request into ${{ github.event.pull_request.head.ref }}</b>
 
-            <i>${{ github.repository }}</i> has received a new pull request from ${{ github.actor }}
+            <a href="https://github.com/${{ github.repository }}">${{ github.repository }}</a> has received a new pull request from <a href="https://github.com/${{ github.actor }}">${{ github.actor }}</a>
 
-            <b>Title</b>: ${{ github.event.pull_request.title }} 👀
-            <b>Link</b>: https://github.com/${{ github.repository }}/pull/${{ github.event.number }} 👀
+            <u>Title</u>: ${{ github.event.pull_request.title }} 👀
+            <u>Link</u>: https://github.com/${{ github.repository }}/pull/${{ github.event.number }} 👀
 
             ********************
