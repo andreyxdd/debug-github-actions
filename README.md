@@ -1,3 +1,3 @@
 # nodejs-github-actions
 
-Another integration/automation test. NEW!
+Another integration/automation test.
