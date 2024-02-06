@@ -11,9 +11,22 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Request status
-        run: curl -X GET "https://society.ton.org/v1/status" -o status.json
+        run: curl -X GET "https://society.ton.org/v1/status" -o response.json
       - name: Parse response
         id: parse-response
-        run: echo "status=$(cat status.json | jq -c '.Status')" >> $GITHUB_OUTPUT
-      - name: Print status
+        run: echo "status=$(cat response.json | jq -c '.Status')" >> $GITHUB_OUTPUT
+      - name: Print output
         run: echo ${{ steps.parse-response.outputs.status }}
+      - name: Send TG notification when the health check failed
+        if: ${{ failure() || steps.parse-response.outputs.status == 'OK' }}
+        uses: appleboy/telegram-action@master
+        with:
+          to: ${{ secrets.TELEGRAM_TO }}
+          token: ${{ secrets.TELEGRAM_TOKEN }}
+          debug: true
+          format: html
+          message: |
+            <b>ton-society backend service: failed health check</b>
+            See details at https://society.ton.org/v1/status
+
+
