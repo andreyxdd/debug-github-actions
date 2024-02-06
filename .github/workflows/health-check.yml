@@ -21,13 +21,11 @@ jobs:
         if: failure() || steps.parse-response.outputs.status != '"123OK"'
         uses: appleboy/telegram-action@master
         with:
-          to: ${{ secrets.TELEGRAM_TO }}
+          to: ${{ secrets.TG_ALERT_TO_TEST }}
           token: ${{ secrets.TELEGRAM_TOKEN }}
           debug: true
           format: html
           message: |
-            ton-society backend service: <b>failed health check</b>
-            
-            See details at https://society.ton.org/v1/status
+            test alert
 
 
