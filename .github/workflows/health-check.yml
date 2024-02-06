@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Request status
-        run: curl -X GET "https://society.ton.org/v1/status" -o response.json
+        run: curl -X GET "https://society.ton.org/v1/statuskjk" -o response.json
       - name: Parse response
         id: parse-response
         run: echo "status=$(cat response.json | jq -c '.Status')" >> $GITHUB_OUTPUT
