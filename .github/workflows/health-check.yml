@@ -1,0 +1,19 @@
+name: Backend health check
+
+on:
+  # schedule:
+  #   - cron: "*/5 * * * *" # every 5 minutes
+  workflow_dispatch:
+
+
+jobs:
+  request-and-parse-status:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Request status
+        run: curl --write-out -X GET "https://society.ton.org/v1/status" -o response.json
+      - name: Parse response
+        id: parse-response
+        run: echo "::set-output name=id::$(cat response.json | jq -c '.Status')"
+      - name: Print status
+        run: echo ${{ steps.parse-response.outputs.id }}
