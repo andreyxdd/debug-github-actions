@@ -14,6 +14,6 @@ jobs:
         run: curl -X GET "https://society.ton.org/v1/status" -o status.json
       - name: Parse response
         id: parse-response
-        run: echo "::set-output name=id::$(cat status.json | jq -c '.Status')"
+        run: echo "status=$(cat status.json | jq -c '.Status')" >> $GITHUB_OUTPUT
       - name: Print status
-        run: echo ${{ steps.parse-response.outputs.id }}
+        run: echo ${{ steps.parse-response.outputs.status }}
