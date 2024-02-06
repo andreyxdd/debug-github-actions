@@ -16,7 +16,7 @@ jobs:
         id: parse-response
         run: echo "status=$(cat response.json | jq -c '.Status')" >> $GITHUB_OUTPUT
       - name: Send TG notification when the health check failed
-        if: ${{ steps.parse-response.outputs.status != "OK" || failure() }}
+        if: steps.parse-response.outputs.status != 'OK' || ${{ failure() }}
         uses: appleboy/telegram-action@master
         with:
           to: ${{ secrets.TELEGRAM_TO }}
@@ -24,7 +24,8 @@ jobs:
           debug: true
           format: html
           message: |
-            <b>ton-society backend service: failed health check</b>
+            ton-society backend service: <b>failed health check</b>
+            
             See details at https://society.ton.org/v1/status
 
 
