@@ -18,7 +18,7 @@ jobs:
       - name: Print status
         run: echo "${{ steps.parse-response.outputs.status }}"
       - name: Send TG notification when the health check failed
-        if: ${{ failure() }} # steps.parse-response.outputs.status != 'OK' || 
+        if: failure() || steps.parse-response.outputs.status != '"OK"'
         uses: appleboy/telegram-action@master
         with:
           to: ${{ secrets.TELEGRAM_TO }}
