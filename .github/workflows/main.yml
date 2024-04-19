@@ -1,6 +1,6 @@
 name: Main
 
-on: [workflow_dispatch, push]
+on: [workflow_dispatch]
 
 concurrency: main-flow
 
@@ -33,7 +33,6 @@ jobs:
           MINIMUM: ${{ secrets.MINIMUM }}
           MAXIMUM: ${{ secrets.MAXIMUM }}
 
-      
       - uses: ./subfolder
         name: Hello world action step
         with:

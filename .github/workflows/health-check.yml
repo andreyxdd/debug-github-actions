@@ -5,7 +5,6 @@ on:
   #   - cron: "*/5 * * * *" # every 5 minutes
   workflow_dispatch:
 
-
 jobs:
   request-and-parse-status:
     runs-on: ubuntu-latest
@@ -14,18 +13,30 @@ jobs:
         run: curl -X GET "https://society.ton.org/v1/status" -o response.json
       - name: Parse response
         id: parse-response
-        run: echo "status=$(cat response.json | jq -c '.Status')" >> $GITHUB_OUTPUT
-      - name: Print status
-        run: echo "${{ steps.parse-response.outputs.status }}"
+        run: |
+          echo "api=$(cat response.json | jq -c '.api')" >> $GITHUB_OUTPUT
+          echo "db=$(cat response.json | jq -c '.db')" >> $GITHUB_OUTPUT
+      - name: Print API status
+        run: echo "${{ steps.parse-response.outputs.api }}"
+      - name: Print DB status
+        run: echo "${{ steps.parse-response.outputs.db }}"
       - name: Send TG notification when the health check failed
-        if: failure() || steps.parse-response.outputs.status != '"123OK"'
+        if: failure() || steps.parse-response.outputs.api != '"ok123"'
         uses: appleboy/telegram-action@master
         with:
-          to: ${{ secrets.TG_ALERT_TO_TEST }}
+          to: ${{ secrets.TELEGRAM_TO }}
           token: ${{ secrets.TELEGRAM_TOKEN }}
           debug: true
           format: html
           message: |
-            test alert
-
-
+            test api alert
+      - name: Send TG notification when the db health check failed
+        if: failure() || steps.parse-response.outputs.db != '"ok1234"'
+        uses: appleboy/telegram-action@master
+        with:
+          to: ${{ secrets.TELEGRAM_TO }}
+          token: ${{ secrets.TELEGRAM_TOKEN }}
+          debug: true
+          format: html
+          message: |
+            test db alert
