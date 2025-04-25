@@ -1,4 +1,4 @@
-name: Add Github User to Allowlist on PR Approve
+name: PR Approve
 
 on:
   pull_request_review:
@@ -12,13 +12,38 @@ jobs:
   handle-approval-comment:
     if: github.event.review.state == 'approved'
     runs-on: ubuntu-latest
+
     steps:
+      - name: Extract activity_id and xps from comment
+        id: extract
+        run: |
+          echo "Review body: ${{ github.event.review.body }}"
+
+          COMMENT='${{ github.event.review.body }}'
+          PREFIX='{activity_id: '
+
+          # Check if the comment starts with the expected format
+          if [[ "$COMMENT" == "$PREFIX"* ]]; then
+            # Use regex to extract activity_id and xps (xps is optional)
+            if [[ "$COMMENT" =~ \{activity_id:\ ([0-9]+)(,\ xps:\ ([0-9]+))?\} ]]; then
+              echo "Matched comment format"
+              ACTIVITY_ID="${BASH_REMATCH[1]}"
+              XPS="${BASH_REMATCH[3]}"
+
+              echo "activity_id=$ACTIVITY_ID" >> $GITHUB_OUTPUT
+              echo "xps=$XPS" >> $GITHUB_OUTPUT
+            else
+              echo "Comment format did not match expected pattern."
+              exit 1
+            fi
+          else
+            echo "Comment does not start with required prefix."
+            exit 1
+          fi
+
       - name: Call Allowlist GitHub Action
-        uses: ton-society/github-allowlist-action@main
+        uses: ./.github/workflows/comment-trigger.yml
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          x_api_key: ${{ secrets.X_API_KEY }}
-          x_partner_id: ${{ secrets.X_PARTNER_ID }}
           github_user_id: ${{ github.event.pull_request.user.id }}
-          activity_id: 9664
-          xps: 1230
+          activity_id: ${{ steps.extract.outputs.activity_id }}
+          xps: ${{ steps.extract.outputs.xps }}
