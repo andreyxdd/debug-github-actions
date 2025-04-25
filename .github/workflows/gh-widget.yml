@@ -1,0 +1,36 @@
+name: "Call Allowlist Action with PR Number, Activity ID, and XPS"
+
+on:
+  workflow_dispatch:
+    inputs:
+      github_pr_number:
+        description: "The Pull Request number"
+        required: true
+        type: number
+      activity_id:
+        description: "The activity ID"
+        required: true
+        type: number
+      xps:
+        description: "Optional reward xps"
+        required: false
+        type: number
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  call-allowlist-action:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Call the Allowlist GitHub Action from ton-society
+        uses: ton-society/github-allowlist-action@main
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          x_api_key: ${{ secrets.X_API_KEY }}
+          x_partner_id: ${{ secrets.X_PARTNER_ID }}
+          github_pr_number: ${{ github.event.inputs.github_pr_number }}
+          activity_id: ${{ github.event.inputs.activity_id }}
+          xps: ${{ github.event.inputs.xps }}
