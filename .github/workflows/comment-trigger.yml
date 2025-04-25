@@ -1,7 +1,7 @@
 name: Add Github User to Allowlist on PR Review Comment
 
 on:
-  issue_comment:
+  pull_request_review_comment:
     types:
       - created
 
@@ -14,22 +14,27 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Check if the comment is on a PR and made by a reviewer
-        if: |
-          github.event.issue.pull_request != null && 
-          github.event.comment.user.login != github.event.issue.user.login
+      - name: Get PR Author's User ID
+        id: pr_author
         run: |
-          echo "Comment is on a PR and made by a reviewer."
+          PR_AUTHOR=$(curl -s -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            "https://api.github.com/repos/${{ github.repository }}/pulls/${{ github.event.pull_request_review_comment.pull_request.id }}" | jq -r '.user.id')
+          echo "PR_AUTHOR_ID=$PR_AUTHOR" >> $GITHUB_ENV
+
+      - name: Check if the comment is made by a reviewer
+        if: |
+          github.event.pull_request_review_comment.user.login != github.event.issue.user.login
+        run: |
+          echo "Comment is made by a reviewer."
 
       - name: Call Allowlist GitHub Action
         if: |
-          github.event.issue.pull_request != null &&
-          github.event.comment.user.login != github.event.issue.user.login
+          github.event.pull_request_review_comment.user.login != github.event.pull_request.user.login
         uses: ton-society/github-allowlist-action@main
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           x_api_key: ${{ secrets.X_API_KEY }}
           x_partner_id: ${{ secrets.X_PARTNER_ID }}
-          github_user_id: ${{ github.event.comment.user.id }}
+          github_user_id: ${{ env.PR_AUTHOR_ID }} # Use PR author's ID
           activity_id: 9664
           xps: 1230
