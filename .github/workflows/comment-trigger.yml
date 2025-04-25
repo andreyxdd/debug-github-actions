@@ -1,0 +1,35 @@
+name: Add Github User to Allowlist on PR Review Comment
+
+on:
+  issue_comment:
+    types:
+      - created
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  handle-reviewer-comment:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check if the comment is on a PR and made by a reviewer
+        if: |
+          github.event.issue.pull_request != null && 
+          github.event.comment.user.login != github.event.issue.user.login
+        run: |
+          echo "Comment is on a PR and made by a reviewer."
+
+      - name: Call Allowlist GitHub Action
+        if: |
+          github.event.issue.pull_request != null &&
+          github.event.comment.user.login != github.event.issue.user.login
+        uses: ton-society/github-allowlist-action@main
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          x_api_key: ${{ secrets.X_API_KEY }}
+          x_partner_id: ${{ secrets.X_PARTNER_ID }}
+          github_user_id: ${{ github.event.comment.user.id }}
+          activity_id: 9664
+          xps: 1230
