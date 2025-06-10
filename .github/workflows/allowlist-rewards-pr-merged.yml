@@ -1,9 +1,10 @@
 name: Add Github User to reward allowlist on PR Merge
 
 on:
-  pull_request:
-    types:
-      - closed
+  push:
+    branches:
+      - main
+      - master
 
 jobs:
   reward:
